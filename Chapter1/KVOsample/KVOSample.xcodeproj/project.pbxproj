@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		302E0E5A2AE641A400DA849F /* BookObjectObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E0E592AE641A400DA849F /* BookObjectObserve.swift */; };
+		308BA8D22AE6C0F60088F91B /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA8D12AE6C0F60088F91B /* ObservableObjectView.swift */; };
 		309907CE2AE62A33007FDC40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309907CD2AE62A33007FDC40 /* AppDelegate.swift */; };
 		309907D02AE62A33007FDC40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309907CF2AE62A33007FDC40 /* SceneDelegate.swift */; };
 		309907D22AE62A33007FDC40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309907D12AE62A33007FDC40 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		302E0E592AE641A400DA849F /* BookObjectObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookObjectObserve.swift; sourceTree = "<group>"; };
+		308BA8D12AE6C0F60088F91B /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		309907CA2AE62A33007FDC40 /* KVOSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309907CD2AE62A33007FDC40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		309907CF2AE62A33007FDC40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				309907CD2AE62A33007FDC40 /* AppDelegate.swift */,
 				309907CF2AE62A33007FDC40 /* SceneDelegate.swift */,
 				309907D12AE62A33007FDC40 /* ViewController.swift */,
+				308BA8D12AE6C0F60088F91B /* ObservableObjectView.swift */,
 				302E0E592AE641A400DA849F /* BookObjectObserve.swift */,
 				309907D32AE62A33007FDC40 /* Main.storyboard */,
 				309907D62AE62A35007FDC40 /* Assets.xcassets */,
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309907D22AE62A33007FDC40 /* ViewController.swift in Sources */,
+				308BA8D22AE6C0F60088F91B /* ObservableObjectView.swift in Sources */,
 				309907CE2AE62A33007FDC40 /* AppDelegate.swift in Sources */,
 				302E0E5A2AE641A400DA849F /* BookObjectObserve.swift in Sources */,
 				309907D02AE62A33007FDC40 /* SceneDelegate.swift in Sources */,
