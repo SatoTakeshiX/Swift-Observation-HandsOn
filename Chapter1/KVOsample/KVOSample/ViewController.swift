@@ -42,7 +42,6 @@ final class ViewController: UIViewController {
 
         imageView.contentMode = .scaleAspectFill
 
-
         imageView.translatesAutoresizingMaskIntoConstraints = false
         label.translatesAutoresizingMaskIntoConstraints = false
         button.translatesAutoresizingMaskIntoConstraints = false

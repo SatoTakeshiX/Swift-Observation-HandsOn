@@ -99,11 +99,11 @@
 				309907CD2AE62A33007FDC40 /* AppDelegate.swift */,
 				309907CF2AE62A33007FDC40 /* SceneDelegate.swift */,
 				309907D12AE62A33007FDC40 /* ViewController.swift */,
+				302E0E592AE641A400DA849F /* BookObjectObserve.swift */,
 				309907D32AE62A33007FDC40 /* Main.storyboard */,
 				309907D62AE62A35007FDC40 /* Assets.xcassets */,
 				309907D82AE62A35007FDC40 /* LaunchScreen.storyboard */,
 				309907DB2AE62A35007FDC40 /* Info.plist */,
-				302E0E592AE641A400DA849F /* BookObjectObserve.swift */,
 			);
 			path = KVOSample;
 			sourceTree = "<group>";
