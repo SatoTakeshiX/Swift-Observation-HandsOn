@@ -7,13 +7,6 @@
 
 import SwiftUI
 
-final class BookModel: ObservableObject {
-    @Published var isBorrowed: Bool = false
-    func switchBorrow() {
-        isBorrowed.toggle()
-    }
-}
-
 struct ObservableObjectView: View {
     @StateObject private var model = BookModel()
     var body: some View {
@@ -22,8 +15,9 @@ struct ObservableObjectView: View {
                 .frame(height: 16)
             Image(systemName: "book")
                 .resizable()
-                .aspectRatio(1.0, contentMode: .fit)
-                .frame(width: 88, height: 88)
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 88)
+                .foregroundColor(.blue)
             Spacer()
                 .frame(height: 8)
             Text(model.isBorrowed ? "貸出中" : "貸出可能")

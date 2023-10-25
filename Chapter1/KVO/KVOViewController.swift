@@ -1,13 +1,23 @@
 //
-//  ViewController.swift
-//  KVOsample
+//  KVOViewController.swift
 //
 //  Created by satoutakeshi on 2023/10/23.
 //
 
 import UIKit
+import SwiftUI
 
-final class ViewController: UIViewController {
+struct KVOView: UIViewControllerRepresentable {
+    typealias UIViewControllerType = KVOViewController
+
+    func makeUIViewController(context: Context) -> KVOViewController {
+        KVOViewController()
+    }
+
+    func updateUIViewController(_ uiViewController: KVOViewController, context: Context) {}
+}
+
+final class KVOViewController: UIViewController {
     @objc let bookModel = BookObjectObserve(isBorrowed: false)
     var observation: NSKeyValueObservation?
     private let label: UILabel = .init()

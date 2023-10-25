@@ -1,6 +1,5 @@
 //
 //  BookObjectObserve.swift
-//  KVOsample
 //
 //  Created by satoutakeshi on 2023/10/23.
 //

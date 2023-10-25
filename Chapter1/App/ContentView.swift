@@ -1,0 +1,40 @@
+//
+//  ContentView.swift
+//  Chapter1
+//
+//  Created by satoutakeshi on 2023/10/25.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationView {
+            List {
+                Section("オブザーバーパターン") {
+                    NavigationLink(
+                        destination: KVOView()
+                    ) {
+                        Text("KVO")
+                    }
+                    NavigationLink(
+                        destination: ObservableObjectView()
+                    ) {
+                        Text("ObservableObject")
+                    }
+                    NavigationLink(
+                        destination: KVOView()
+                    ) {
+                        Text("KVO")
+                    }
+                }
+            }
+            .navigationTitle("Chapter 1")
+            .background(Color(.systemGray5))
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
