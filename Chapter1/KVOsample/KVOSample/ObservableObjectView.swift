@@ -39,8 +39,6 @@ struct ObservableObjectView: View {
     }
 }
 
-
-
 #Preview {
     ObservableObjectView()
 }
