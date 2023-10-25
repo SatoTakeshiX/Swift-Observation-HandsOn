@@ -29,6 +29,13 @@ struct ContentView: View {
                     }
                 }
 
+                Section("Observation基礎") {
+                    NavigationLink(
+                        destination: TutorialView()
+                    ) {
+                        Text("チュートリアル")
+                    }
+                }
             }
             .navigationTitle("Chapter 1")
             .scrollContentBackground(.hidden)
