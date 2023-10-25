@@ -1,14 +1,14 @@
 //
-//  ObservableObjectView.swift
-//  KVOSample
+//  BookObserver.swift
+//  Chapter1
 //
-//  Created by satoutakeshi on 2023/10/23.
+//  Created by satoutakeshi on 2023/10/26.
 //
 
 import SwiftUI
 
-struct ObservableObjectView: View {
-    @StateObject private var model = BookModel()
+struct ObservationView: View {
+    @State private var book = Book()
     var body: some View {
         VStack {
             Spacer()
@@ -20,13 +20,13 @@ struct ObservableObjectView: View {
                 .foregroundColor(.blue)
             Spacer()
                 .frame(height: 8)
-            Text(model.isBorrowed ? "貸出中" : "貸出可能")
+            Text(book.isBorrowed ? "貸出中" : "貸出可能")
             Spacer()
                 .frame(height: 16)
             Button {
-                model.switchBorrow()
+                book.switchBorrow()
             } label: {
-                Text(model.isBorrowed ? "この本を返す" : "この本を借りる")
+                Text(book.isBorrowed ? "この本を返す" : "この本を借りる")
                     .padding()
                     .foregroundStyle(Color.black)
                     .overlay(
@@ -40,5 +40,5 @@ struct ObservableObjectView: View {
 }
 
 #Preview {
-    ObservableObjectView()
+    ObservationView()
 }

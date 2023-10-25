@@ -23,13 +23,15 @@ struct ContentView: View {
                         Text("ObservableObject")
                     }
                     NavigationLink(
-                        destination: KVOView()
+                        destination: ObservationView()
                     ) {
-                        Text("KVO")
+                        Text("Observation")
                     }
                 }
+
             }
             .navigationTitle("Chapter 1")
+            .scrollContentBackground(.hidden)
             .background(Color(.systemGray5))
         }
     }

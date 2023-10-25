@@ -15,6 +15,8 @@
 		308BA8FC2AE95C7D0088F91B /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA8FB2AE95C7D0088F91B /* ObservableObjectView.swift */; };
 		308BA9012AE95CDE0088F91B /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA9002AE95CDE0088F91B /* KVOViewController.swift */; };
 		308BA9032AE95D4A0088F91B /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA9022AE95D4A0088F91B /* BookModel.swift */; };
+		308BA9072AE968000088F91B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA9062AE968000088F91B /* Book.swift */; };
+		308BA9092AE9688C0088F91B /* ObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA9082AE9688C0088F91B /* ObservationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		308BA8FB2AE95C7D0088F91B /* ObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObservableObjectView.swift; path = ObservableObject/ObservableObjectView.swift; sourceTree = SOURCE_ROOT; };
 		308BA9002AE95CDE0088F91B /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		308BA9022AE95D4A0088F91B /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		308BA9062AE968000088F91B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		308BA9082AE9688C0088F91B /* ObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 				308BA9042AE95E480088F91B /* App */,
 				308BA8FA2AE95C2B0088F91B /* KVO */,
 				308BA8FD2AE95C870088F91B /* ObservableObject */,
+				308BA9052AE967C70088F91B /* Observation */,
 				308BA8F42AE95ACB0088F91B /* Assets.xcassets */,
 				308BA8F62AE95AD20088F91B /* Preview Content */,
 				308BA8DD2AE959810088F91B /* Products */,
@@ -85,6 +90,15 @@
 				308BA8EE2AE95AB90088F91B /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		308BA9052AE967C70088F91B /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+				308BA9082AE9688C0088F91B /* ObservationView.swift */,
+				308BA9062AE968000088F91B /* Book.swift */,
+			);
+			path = Observation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308BA9092AE9688C0088F91B /* ObservationView.swift in Sources */,
 				308BA9032AE95D4A0088F91B /* BookModel.swift in Sources */,
 				308BA9012AE95CDE0088F91B /* KVOViewController.swift in Sources */,
+				308BA9072AE968000088F91B /* Book.swift in Sources */,
 				308BA8FC2AE95C7D0088F91B /* ObservableObjectView.swift in Sources */,
 				308BA8F92AE95C210088F91B /* BookObjectObserve.swift in Sources */,
 				308BA8F22AE95AB90088F91B /* Chapter1App.swift in Sources */,
