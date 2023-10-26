@@ -17,6 +17,6 @@ final class BookAccount {
     }
     func switchBorrow() {
         isBorrowed.toggle()
-        history = [Date(): isBorrowed]
+        history[Date()] = isBorrowed
     }
 }
