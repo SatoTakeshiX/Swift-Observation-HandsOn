@@ -14,7 +14,7 @@ struct ContentView: View {
                 Section("オブザーバーパターン") {
                     NavigationLink(
                         destination: KVOView()
-                            .navigationTitle("KYOを利用") // UIViewController in UIViewControllerRepresentable doesn't work title. so I update the navigation title in SwiftUI side. 
+                            .navigationTitle("KVO") // UIViewController in UIViewControllerRepresentable doesn't work title. so I update the navigation title in SwiftUI side. 
                             .navigationBarTitleDisplayMode(.inline)
                     ) {
                         Text("KVO")
