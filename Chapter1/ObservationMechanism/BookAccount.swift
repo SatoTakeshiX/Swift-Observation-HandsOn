@@ -13,7 +13,7 @@ final class BookAccount {
     var isBorrowed: Bool = false
     var history: [Date: Bool] = [:]
     var borrowedCount: Int {
-        history.count
+        history.filter { $0.value }.count
     }
     func switchBorrow() {
         isBorrowed.toggle()

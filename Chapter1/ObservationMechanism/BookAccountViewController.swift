@@ -8,17 +8,17 @@
 import UIKit
 import SwiftUI
 
-struct TutorialView: UIViewControllerRepresentable {
-    typealias UIViewControllerType = TutorialViewController
+struct BookAccountView: UIViewControllerRepresentable {
+    typealias UIViewControllerType = BookAccountViewController
 
-    func makeUIViewController(context: Context) -> TutorialViewController {
-        TutorialViewController()
+    func makeUIViewController(context: Context) -> BookAccountViewController {
+        BookAccountViewController()
     }
 
-    func updateUIViewController(_ uiViewController: TutorialViewController, context: Context) {}
+    func updateUIViewController(_ uiViewController: BookAccountViewController, context: Context) {}
 }
 
-final class TutorialViewController: UIViewController {
+final class BookAccountViewController: UIViewController {
     private let bookAccount = BookAccount()
     private var borrowedStatelabel: UILabel = .init()
     private var borrowedCountlabel: UILabel = .init()
@@ -47,8 +47,6 @@ final class TutorialViewController: UIViewController {
             }
 
             self.borrowedCountlabel.text = "貸出回数: \(self.bookAccount.borrowedCount)"
-//            print(bookAccount.isBorrowed)
-//            print(bookAccount.borrowedCount)
         } onChange: { [weak self] in
             guard let self else { return }
             Task { @MainActor in

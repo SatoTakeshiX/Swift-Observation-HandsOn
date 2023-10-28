@@ -31,11 +31,11 @@ struct ContentView: View {
                     }
                 }
 
-                Section("Observation基礎") {
+                Section("Observationの仕組み") {
                     NavigationLink(
-                        destination: TutorialView()
+                        destination: BookAccountView()
                     ) {
-                        Text("チュートリアル")
+                        Text("BookAccount")
                     }
                 }
             }
