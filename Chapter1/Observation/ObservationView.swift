@@ -36,6 +36,8 @@ struct ObservationView: View {
             }
             Spacer()
         }
+        .navigationTitle("Observationを利用")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

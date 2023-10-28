@@ -36,6 +36,8 @@ struct ObservableObjectView: View {
             }
             Spacer()
         }
+        .navigationTitle("ObservableObjectを利用")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
