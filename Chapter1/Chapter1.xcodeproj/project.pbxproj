@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304C74782AF2983D00DDA7D1 /* SE-0400.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74772AF2983D00DDA7D1 /* SE-0400.swift */; };
 		308BA8F22AE95AB90088F91B /* Chapter1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA8ED2AE95AB90088F91B /* Chapter1App.swift */; };
 		308BA8F32AE95AB90088F91B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308BA8EE2AE95AB90088F91B /* ContentView.swift */; };
 		308BA8F52AE95ACB0088F91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308BA8F42AE95ACB0088F91B /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		304C74772AF2983D00DDA7D1 /* SE-0400.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SE-0400.swift"; sourceTree = "<group>"; };
 		308BA8DC2AE959810088F91B /* Chapter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308BA8ED2AE95AB90088F91B /* Chapter1App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1App.swift; sourceTree = "<group>"; };
 		308BA8EE2AE95AB90088F91B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				308BA90C2AE976C50088F91B /* BookAccountViewController.swift */,
 				308BA90E2AE976FA0088F91B /* BookAccount.swift */,
+				304C74772AF2983D00DDA7D1 /* SE-0400.swift */,
 			);
 			path = ObservationMechanism;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				308BA9072AE968000088F91B /* Book.swift in Sources */,
 				308BA8FC2AE95C7D0088F91B /* ObservableObjectView.swift in Sources */,
 				308BA8F92AE95C210088F91B /* BookObjectObserve.swift in Sources */,
+				304C74782AF2983D00DDA7D1 /* SE-0400.swift in Sources */,
 				308BA8F22AE95AB90088F91B /* Chapter1App.swift in Sources */,
 				308BA8F32AE95AB90088F91B /* ContentView.swift in Sources */,
 			);
