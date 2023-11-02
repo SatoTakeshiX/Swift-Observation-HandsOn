@@ -41,10 +41,10 @@ final class Person {
     let age: Int
     let _name: String
     var name: String {
-        @storageRestrictions(initializes: _name)
+        @storageRestrictions(initializes: _name, accesses: age)
         init(initializes) {
             self._name = initializes
-            self.age = 0
+            print(self.age)
         }
 
         get {
@@ -53,8 +53,9 @@ final class Person {
     }
 
     init(name: String, age: Int) {
-        self.name = name
+        // self.name = name // Constant 'self.age' used before being initialized
         self.age = age
+        self.name = name
     }
 }
 
