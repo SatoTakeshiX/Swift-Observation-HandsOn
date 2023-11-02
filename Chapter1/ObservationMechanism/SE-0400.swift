@@ -15,7 +15,7 @@ import Foundation
 
 
 // Observableが格納プロパティを書き換えるイメージコード
-//final class A {
+//final class Person {
 //    var _name: String
 //    var name: String {
 //        get {
@@ -31,18 +31,20 @@ import Foundation
 //    }
 //}
 
-@Observable
-final class A {
-    var name: String = ""
-    init() {}
-}
+//@Observable
+//final class Person {
+//    var name: String = ""
+//    init() {}
+//}
 
-struct Person {
+final class Person {
+    let age: Int
     let _name: String
     var name: String {
         @storageRestrictions(initializes: _name)
         init(initializes) {
             self._name = initializes
+            self.age = 0
         }
 
         get {
@@ -50,8 +52,9 @@ struct Person {
         }
     }
 
-    init(name: String) {
+    init(name: String, age: Int) {
         self.name = name
+        self.age = age
     }
 }
 
