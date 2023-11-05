@@ -17,6 +17,7 @@
 		304C74AD2AF6786F00DDA7D1 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74AC2AF6786F00DDA7D1 /* BindingView.swift */; };
 		304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74AE2AF67D0600DDA7D1 /* NovelObject.swift */; };
 		304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B02AF67D8200DDA7D1 /* NovelView.swift */; };
+		304C74B32AF782C200DDA7D1 /* ObservationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		304C74AC2AF6786F00DDA7D1 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		304C74AE2AF67D0600DDA7D1 /* NovelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelObject.swift; sourceTree = "<group>"; };
 		304C74B02AF67D8200DDA7D1 /* NovelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelView.swift; sourceTree = "<group>"; };
+		304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationUsage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				304C74AB2AF6785E00DDA7D1 /* Binding */,
 				304C74A92AF6782500DDA7D1 /* BookAccount.swift */,
+				304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */,
 			);
 			path = Observation;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */,
 				304C74A82AF65A7400DDA7D1 /* BookAccountObject.swift in Sources */,
 				304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */,
+				304C74B32AF782C200DDA7D1 /* ObservationUsage.swift in Sources */,
 				304C74AD2AF6786F00DDA7D1 /* BindingView.swift in Sources */,
 				304C74932AF6592100DDA7D1 /* Chapter2App.swift in Sources */,
 				304C74A42AF65A3900DDA7D1 /* ObservableObjectParentView.swift in Sources */,

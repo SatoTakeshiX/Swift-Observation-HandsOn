@@ -9,7 +9,16 @@ import Combine
 import Foundation
 
 class BookAccountObject: ObservableObject {
-    @Published var isBorrowed: Bool = false
+    @Published var isBorrowed: Bool = false {
+        willSet {
+            print("willset")
+            //objectWillChange.send()
+        }
+
+        didSet {
+            print("didSet")
+        }
+    }
     @Published var history: [Date: Bool] = [:]
     var borrowedCount: Int {
         history.filter { $0.value }.count
