@@ -18,6 +18,9 @@
 		304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74AE2AF67D0600DDA7D1 /* NovelObject.swift */; };
 		304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B02AF67D8200DDA7D1 /* NovelView.swift */; };
 		304C74B32AF782C200DDA7D1 /* ObservationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */; };
+		304C74B62AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B52AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift */; };
+		304C74B82AF7E44700DDA7D1 /* WillSetDidSetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B72AF7E44700DDA7D1 /* WillSetDidSetObservable.swift */; };
+		304C74BC2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74BB2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		304C74AE2AF67D0600DDA7D1 /* NovelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelObject.swift; sourceTree = "<group>"; };
 		304C74B02AF67D8200DDA7D1 /* NovelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelView.swift; sourceTree = "<group>"; };
 		304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationUsage.swift; sourceTree = "<group>"; };
+		304C74B52AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservableObjectView.swift; sourceTree = "<group>"; };
+		304C74B72AF7E44700DDA7D1 /* WillSetDidSetObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservable.swift; sourceTree = "<group>"; };
+		304C74BB2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersObservableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				304C74A02AF6595E00DDA7D1 /* App */,
+				304C74B92AF7E57500DDA7D1 /* AvaliableTypes */,
+				304C74B42AF7E11100DDA7D1 /* WillSetDidSet */,
+				304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */,
 				304C74A12AF659E800DDA7D1 /* ObservableObject */,
 				304C74A22AF65A0200DDA7D1 /* Observation */,
 				304C74962AF6592300DDA7D1 /* Assets.xcassets */,
@@ -107,7 +116,6 @@
 			children = (
 				304C74AB2AF6785E00DDA7D1 /* Binding */,
 				304C74A92AF6782500DDA7D1 /* BookAccount.swift */,
-				304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */,
 			);
 			path = Observation;
 			sourceTree = "<group>";
@@ -134,6 +142,31 @@
 				304C74AC2AF6786F00DDA7D1 /* BindingView.swift */,
 			);
 			path = Binding;
+			sourceTree = "<group>";
+		};
+		304C74B42AF7E11100DDA7D1 /* WillSetDidSet */ = {
+			isa = PBXGroup;
+			children = (
+				304C74B52AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift */,
+				304C74B72AF7E44700DDA7D1 /* WillSetDidSetObservable.swift */,
+			);
+			path = WillSetDidSet;
+			sourceTree = "<group>";
+		};
+		304C74B92AF7E57500DDA7D1 /* AvaliableTypes */ = {
+			isa = PBXGroup;
+			children = (
+				304C74B22AF782C200DDA7D1 /* ObservationUsage.swift */,
+			);
+			path = AvaliableTypes;
+			sourceTree = "<group>";
+		};
+		304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				304C74BB2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,12 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304C74B62AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift in Sources */,
 				304C74952AF6592100DDA7D1 /* ContentView.swift in Sources */,
 				304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */,
 				304C74A82AF65A7400DDA7D1 /* BookAccountObject.swift in Sources */,
 				304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */,
+				304C74B82AF7E44700DDA7D1 /* WillSetDidSetObservable.swift in Sources */,
 				304C74B32AF782C200DDA7D1 /* ObservationUsage.swift in Sources */,
 				304C74AD2AF6786F00DDA7D1 /* BindingView.swift in Sources */,
+				304C74BC2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift in Sources */,
 				304C74932AF6592100DDA7D1 /* Chapter2App.swift in Sources */,
 				304C74A42AF65A3900DDA7D1 /* ObservableObjectParentView.swift in Sources */,
 				304C74AA2AF6782500DDA7D1 /* BookAccount.swift in Sources */,
