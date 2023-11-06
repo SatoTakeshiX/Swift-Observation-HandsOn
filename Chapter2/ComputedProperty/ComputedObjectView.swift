@@ -7,35 +7,30 @@
 
 import SwiftUI
 
-final class Book2: ObservableObject {
-    var history: [Date] = []
-    @Published var isBoorwwed: Bool = false
-    var count: Int {
-       // objectWillChange.send()
-        return history.count
+private final class Counter: ObservableObject {
+    /*@Published*/ var count: Int = 0
+
+    var doubleCount: Int {
+        count * 2
     }
 
     func update() {
-        history.append(Date())
+        count = count + 1
     }
 }
-struct ComputedObjectView: View {
-    @StateObject private var book = Book2()
+
+private struct ComputedObjectView: View {
+    @StateObject private var counter = Counter()
 
     var body: some View {
-        ChildView2(count: book.count)
+        Text(counter.doubleCount.description)
+
         Button(action: {
-            book.update()
+            counter.update()
         }, label: {
-            Text("借りる")
+            Text("カウントアップ")
         })
-    }
-}
-
-struct ChildView2: View {
-    var count: Int
-    var body: some View {
-        Text("貸出回数: \(count)")
+        Spacer()
     }
 }
 
