@@ -17,6 +17,7 @@ struct WillSetDidSetObservableObjectView: View {
         }, label: {
             Text("借りる")
         })
+        Spacer()
     }
 }
 

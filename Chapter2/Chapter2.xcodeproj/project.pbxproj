@@ -21,6 +21,8 @@
 		304C74B62AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B52AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift */; };
 		304C74B82AF7E44700DDA7D1 /* WillSetDidSetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74B72AF7E44700DDA7D1 /* WillSetDidSetObservable.swift */; };
 		304C74BC2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74BB2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift */; };
+		304C74BF2AF9204400DDA7D1 /* ComputedObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74BE2AF9204400DDA7D1 /* ComputedObserverView.swift */; };
+		304C74C12AF922EF00DDA7D1 /* ComputedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		304C74B52AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservableObjectView.swift; sourceTree = "<group>"; };
 		304C74B72AF7E44700DDA7D1 /* WillSetDidSetObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservable.swift; sourceTree = "<group>"; };
 		304C74BB2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersObservableView.swift; sourceTree = "<group>"; };
+		304C74BE2AF9204400DDA7D1 /* ComputedObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedObserverView.swift; sourceTree = "<group>"; };
+		304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedObjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 				304C74B92AF7E57500DDA7D1 /* AvaliableTypes */,
 				304C74B42AF7E11100DDA7D1 /* WillSetDidSet */,
 				304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */,
+				304C74BD2AF9200B00DDA7D1 /* ComputedProperty */,
 				304C74A12AF659E800DDA7D1 /* ObservableObject */,
 				304C74A22AF65A0200DDA7D1 /* Observation */,
 				304C74962AF6592300DDA7D1 /* Assets.xcassets */,
@@ -161,6 +166,15 @@
 			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
+		304C74BD2AF9200B00DDA7D1 /* ComputedProperty */ = {
+			isa = PBXGroup;
+			children = (
+				304C74BE2AF9204400DDA7D1 /* ComputedObserverView.swift */,
+				304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */,
+			);
+			path = ComputedProperty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304C74C12AF922EF00DDA7D1 /* ComputedObjectView.swift in Sources */,
 				304C74B62AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift in Sources */,
 				304C74952AF6592100DDA7D1 /* ContentView.swift in Sources */,
 				304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */,
@@ -242,6 +257,7 @@
 				304C74BC2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift in Sources */,
 				304C74932AF6592100DDA7D1 /* Chapter2App.swift in Sources */,
 				304C74A42AF65A3900DDA7D1 /* ObservableObjectParentView.swift in Sources */,
+				304C74BF2AF9204400DDA7D1 /* ComputedObserverView.swift in Sources */,
 				304C74AA2AF6782500DDA7D1 /* BookAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
