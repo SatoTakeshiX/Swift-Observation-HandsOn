@@ -55,7 +55,14 @@
 		304C74862AF6592100DDA7D1 = {
 			isa = PBXGroup;
 			children = (
-				304C74912AF6592100DDA7D1 /* Chapter2 */,
+				304C74A02AF6595E00DDA7D1 /* App */,
+				304C74B92AF7E57500DDA7D1 /* AvaliableTypes */,
+				304C74B42AF7E11100DDA7D1 /* WillSetDidSet */,
+				304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */,
+				304C74A12AF659E800DDA7D1 /* ObservableObject */,
+				304C74A22AF65A0200DDA7D1 /* Observation */,
+				304C74962AF6592300DDA7D1 /* Assets.xcassets */,
+				304C74982AF6592300DDA7D1 /* Preview Content */,
 				304C74902AF6592100DDA7D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,21 +73,6 @@
 				304C748F2AF6592100DDA7D1 /* Chapter2.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		304C74912AF6592100DDA7D1 /* Chapter2 */ = {
-			isa = PBXGroup;
-			children = (
-				304C74A02AF6595E00DDA7D1 /* App */,
-				304C74B92AF7E57500DDA7D1 /* AvaliableTypes */,
-				304C74B42AF7E11100DDA7D1 /* WillSetDidSet */,
-				304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */,
-				304C74A12AF659E800DDA7D1 /* ObservableObject */,
-				304C74A22AF65A0200DDA7D1 /* Observation */,
-				304C74962AF6592300DDA7D1 /* Assets.xcassets */,
-				304C74982AF6592300DDA7D1 /* Preview Content */,
-			);
-			path = Chapter2;
 			sourceTree = "<group>";
 		};
 		304C74982AF6592300DDA7D1 /* Preview Content */ = {
@@ -383,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = WNEUDLL4LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -412,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = WNEUDLL4LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
