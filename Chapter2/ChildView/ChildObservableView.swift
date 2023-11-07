@@ -1,18 +1,16 @@
 //
-//  ChildObjectView.swift
-//  Chapter2
+//  ChildObservableView.swift
+//  Chapter3
 //
-//  Created by satoutakeshi on 2023/11/07.
+//  Created by satoutakeshi on 2023/11/08.
 //
 
 import SwiftUI
 
-private struct Item: Identifiable {
+@Observable
+private class Item: Identifiable {
     var name: String
     var isChecked: Bool
-    var id: String {
-        name
-    }
 
     init(name: String, isChecked: Bool) {
         self.name = name
@@ -20,31 +18,32 @@ private struct Item: Identifiable {
     }
 }
 
-private final class ItemModel: ObservableObject {
-    @Published var items: [Item] = [
+@Observable
+private final class ItemModel {
+    var items: [Item] = [
         Item(name: "Apple", isChecked: false),
         Item(name: "Banana", isChecked: false),
         Item(name: "Meron", isChecked: false)
     ]
-    
+
     init() {}
 }
 
-struct ParentObjectView: View {
-    @StateObject private var itemModel: ItemModel = .init()
+struct ParentObservableView: View {
+    @State private var itemModel: ItemModel = .init()
     var body: some View {
         let _ = Self._printChanges()
-        List(itemModel.items.indices, id: \.self) { index in
-            ChildObjectView(
-                isChecked: $itemModel.items[index].isChecked,
-                name: itemModel.items[index].name
+        List(itemModel.items) { item in
+            @Bindable var item = item
+            ChildObservableView(
+                isChecked: $item.isChecked,
+                name: item.name
             )
         }
-
     }
 }
 
-private struct ChildObjectView: View {
+private struct ChildObservableView: View {
     @Binding var isChecked: Bool
     var name: String
     var body: some View {
@@ -57,5 +56,5 @@ private struct ChildObjectView: View {
 }
 
 #Preview {
-    ParentObjectView()
+    ParentObservableView()
 }

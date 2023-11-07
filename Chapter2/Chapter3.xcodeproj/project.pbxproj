@@ -24,6 +24,7 @@
 		304C74BF2AF9204400DDA7D1 /* ComputedObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74BE2AF9204400DDA7D1 /* ComputedObserverView.swift */; };
 		304C74C12AF922EF00DDA7D1 /* ComputedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */; };
 		304C74C42AF9BBF100DDA7D1 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C32AF9BBF100DDA7D1 /* ChildObjectView.swift */; };
+		304C74C62AFA8CCB00DDA7D1 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C52AFA8CCB00DDA7D1 /* ChildObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		304C74BE2AF9204400DDA7D1 /* ComputedObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedObserverView.swift; sourceTree = "<group>"; };
 		304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedObjectView.swift; sourceTree = "<group>"; };
 		304C74C32AF9BBF100DDA7D1 /* ChildObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildObjectView.swift; sourceTree = "<group>"; };
+		304C74C52AFA8CCB00DDA7D1 /* ChildObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildObservableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				304C74C32AF9BBF100DDA7D1 /* ChildObjectView.swift */,
+				304C74C52AFA8CCB00DDA7D1 /* ChildObservableView.swift */,
 			);
 			path = ChildView;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */,
 				304C74B82AF7E44700DDA7D1 /* WillSetDidSetObservable.swift in Sources */,
 				304C74B32AF782C200DDA7D1 /* ObservationUsage.swift in Sources */,
+				304C74C62AFA8CCB00DDA7D1 /* ChildObservableView.swift in Sources */,
 				304C74AD2AF6786F00DDA7D1 /* BindingView.swift in Sources */,
 				304C74BC2AF7EFAE00DDA7D1 /* PropertyWrappersObservableView.swift in Sources */,
 				304C74C42AF9BBF100DDA7D1 /* ChildObjectView.swift in Sources */,
