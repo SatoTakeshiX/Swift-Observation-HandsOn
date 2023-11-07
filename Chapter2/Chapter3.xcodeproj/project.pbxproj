@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		304C748F2AF6592100DDA7D1 /* Chapter2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C748F2AF6592100DDA7D1 /* Chapter3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304C74922AF6592100DDA7D1 /* Chapter2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2App.swift; sourceTree = "<group>"; };
 		304C74942AF6592100DDA7D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		304C74962AF6592300DDA7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		304C74902AF6592100DDA7D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				304C748F2AF6592100DDA7D1 /* Chapter2.app */,
+				304C748F2AF6592100DDA7D1 /* Chapter3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304C748E2AF6592100DDA7D1 /* Chapter2 */ = {
+		304C748E2AF6592100DDA7D1 /* Chapter3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304C749D2AF6592300DDA7D1 /* Build configuration list for PBXNativeTarget "Chapter2" */;
+			buildConfigurationList = 304C749D2AF6592300DDA7D1 /* Build configuration list for PBXNativeTarget "Chapter3" */;
 			buildPhases = (
 				304C748B2AF6592100DDA7D1 /* Sources */,
 				304C748C2AF6592100DDA7D1 /* Frameworks */,
@@ -201,9 +201,9 @@
 			);
 			dependencies = (
 			);
-			name = Chapter2;
+			name = Chapter3;
 			productName = Chapter2;
-			productReference = 304C748F2AF6592100DDA7D1 /* Chapter2.app */;
+			productReference = 304C748F2AF6592100DDA7D1 /* Chapter3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +234,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				304C748E2AF6592100DDA7D1 /* Chapter2 */,
+				304C748E2AF6592100DDA7D1 /* Chapter3 */,
 			);
 		};
 /* End PBXProject section */
@@ -417,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Chapter2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Chapter3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Chapter2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Chapter3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304C749D2AF6592300DDA7D1 /* Build configuration list for PBXNativeTarget "Chapter2" */ = {
+		304C749D2AF6592300DDA7D1 /* Build configuration list for PBXNativeTarget "Chapter3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304C749E2AF6592300DDA7D1 /* Debug */,
