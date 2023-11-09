@@ -25,6 +25,8 @@
 		304C74C12AF922EF00DDA7D1 /* ComputedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */; };
 		304C74C42AF9BBF100DDA7D1 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C32AF9BBF100DDA7D1 /* ChildObjectView.swift */; };
 		304C74C62AFA8CCB00DDA7D1 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C52AFA8CCB00DDA7D1 /* ChildObservableView.swift */; };
+		304C74C92AFBD78E00DDA7D1 /* NestedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74C82AFBD78E00DDA7D1 /* NestedObjectView.swift */; };
+		304C74CB2AFD0B3200DDA7D1 /* NestedObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C74CA2AFD0B3200DDA7D1 /* NestedObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		304C74C02AF922EF00DDA7D1 /* ComputedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedObjectView.swift; sourceTree = "<group>"; };
 		304C74C32AF9BBF100DDA7D1 /* ChildObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildObjectView.swift; sourceTree = "<group>"; };
 		304C74C52AFA8CCB00DDA7D1 /* ChildObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildObservableView.swift; sourceTree = "<group>"; };
+		304C74C82AFBD78E00DDA7D1 /* NestedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedObjectView.swift; sourceTree = "<group>"; };
+		304C74CA2AFD0B3200DDA7D1 /* NestedObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedObservableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				304C74BA2AF7EF8800DDA7D1 /* PropertyWrappers */,
 				304C74BD2AF9200B00DDA7D1 /* ComputedProperty */,
 				304C74C22AF9BBCA00DDA7D1 /* ChildView */,
+				304C74C72AFBD57E00DDA7D1 /* NestingView */,
 				304C74A12AF659E800DDA7D1 /* ObservableObject */,
 				304C74A22AF65A0200DDA7D1 /* Observation */,
 				304C74962AF6592300DDA7D1 /* Assets.xcassets */,
@@ -189,6 +194,15 @@
 			path = ChildView;
 			sourceTree = "<group>";
 		};
+		304C74C72AFBD57E00DDA7D1 /* NestingView */ = {
+			isa = PBXGroup;
+			children = (
+				304C74C82AFBD78E00DDA7D1 /* NestedObjectView.swift */,
+				304C74CA2AFD0B3200DDA7D1 /* NestedObservableView.swift */,
+			);
+			path = NestingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,6 +277,7 @@
 				304C74B62AF7E15700DDA7D1 /* WillSetDidSetObservableObjectView.swift in Sources */,
 				304C74952AF6592100DDA7D1 /* ContentView.swift in Sources */,
 				304C74B12AF67D8200DDA7D1 /* NovelView.swift in Sources */,
+				304C74C92AFBD78E00DDA7D1 /* NestedObjectView.swift in Sources */,
 				304C74A82AF65A7400DDA7D1 /* BookAccountObject.swift in Sources */,
 				304C74AF2AF67D0600DDA7D1 /* NovelObject.swift in Sources */,
 				304C74B82AF7E44700DDA7D1 /* WillSetDidSetObservable.swift in Sources */,
@@ -274,6 +289,7 @@
 				304C74932AF6592100DDA7D1 /* Chapter3App.swift in Sources */,
 				304C74A42AF65A3900DDA7D1 /* ObservableObjectParentView.swift in Sources */,
 				304C74BF2AF9204400DDA7D1 /* ComputedObserverView.swift in Sources */,
+				304C74CB2AFD0B3200DDA7D1 /* NestedObservableView.swift in Sources */,
 				304C74AA2AF6782500DDA7D1 /* BookAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
