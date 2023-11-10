@@ -14,7 +14,7 @@ fileprivate class Book: ObservableObject {
         self.borrowedName = borrowedName
     }
 
-    func updateName() {
+    func updateBorrowedName() {
         borrowedName = [
             "Jobs",
             "Cook",
@@ -38,7 +38,7 @@ struct SubClassObjectView: View {
         Text("ジャンル：\(novel.genre)")
         Text("借りている人：\(novel.borrowedName ?? "なし")")
         Button(action: {
-            novel.updateName()
+            novel.updateBorrowedName()
         }, label: {
             Text("本を借りる")
         })
