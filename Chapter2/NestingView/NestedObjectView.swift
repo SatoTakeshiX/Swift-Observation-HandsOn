@@ -39,7 +39,7 @@ struct NestedObjectView: View {
         Text("サイコロの目: \(game.dice.number)")
         Button(action: {
             game.dice.roll()
-            game.objectWillChange.send()
+            // game.objectWillChange.send()
             // もしもインスタンス全体を更新すれば更新される
             // game.dice = Dice(number: 6)
         }, label: {
