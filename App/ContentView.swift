@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var pianoLesson = Lesson(name: "ピアノ初級", perticipants: [], duration: 60)
     var body: some View {
         NavigationView {
             List {
@@ -100,13 +101,20 @@ struct ContentView: View {
                 }
 
                 Section("Chapter4") {
+                    NavigationLink(
+                        destination: EnvironmentListView()
 
+                    ) {
+                        Text("EnvironmentListView")
+                    }
                 }
             }
             .navigationTitle("Observation入門")
             .scrollContentBackground(.hidden)
             .background(Color(.systemGray6))
         }
+        .environment(\.lesson, pianoLesson)
+        .environment(Lesson(name: "初めての中国語", perticipants: [], duration: 60))
     }
 }
 

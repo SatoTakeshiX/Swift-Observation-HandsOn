@@ -8,21 +8,22 @@
 import SwiftUI
 
 struct EnvironmentListView: View {
-    @State private var lesson: Lesson = .init(
+    @State private var lessonState: Lesson = .init(
         name: "英語初級",
         perticipants: [], 
         duration: 90
     )
+
     var body: some View {
         List {
             NavigationLink(
-                destination: EnvironmentListView()
+                destination: SecondEnvironmentView()
             ) {
                 Text("EnvironmentListView")
             }
 
             NavigationLink(
-                destination: SecondStateView(lesson: lesson)
+                destination: SecondStateView(lesson: lessonState)
             ) {
                 Text("SecondStateView")
             }
@@ -46,24 +47,35 @@ struct ThirdStateView: View {
     }
 }
 
-struct SecondEnvironmentView {
-    
+struct SecondEnvironmentView: View {
+    var body: some View {
+        ThirdEnvironmentView()
+    }
 }
 
-struct ThirdEnvironmentView {
+struct ThirdEnvironmentView: View {
+    @Environment(\.lesson) private var lessonByEnvironmentKey
+    @Environment(Lesson.self) private var lessonByType
 
+    var body: some View {
+        Text("by key: \(lessonByEnvironmentKey.name)")
+        Text("by Type: \(lessonByType.name)")
+        Spacer()
+    }
 }
-
-
 
 #Preview {
-    NavigationView(
+    let lesson = Lesson(name: "ピアノ初級", perticipants: [], duration: 60)
+    return NavigationView(
         content: {
             NavigationLink(
                 destination: EnvironmentListView()
+
             ) {
                 Text("EnvironmentListView")
             }
         }
     )
+    .environment(\.lesson, lesson)
+    .environment(Lesson(name: "初めての中国語", perticipants: [], duration: 60))
 }
