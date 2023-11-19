@@ -9,7 +9,7 @@ import SwiftUI
 // Observable
 
 struct WillSetDidSetObservableObjectView: View {
-    @StateObject private var book = Book(borrowedName: "貸出可能")
+    @StateObject private var book = Book3(borrowedName: "貸出可能")
     var body: some View {
         Text(book.borrowedName)
         Button(action: {
@@ -25,7 +25,7 @@ struct WillSetDidSetObservableObjectView: View {
     WillSetDidSetObservableObjectView()
 }
 
-private final class Book: ObservableObject {
+private final class Book3: ObservableObject {
     @Published var borrowedName: String {
         willSet {
             print("willSet")

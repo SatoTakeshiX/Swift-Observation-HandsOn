@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+@Observable
+fileprivate final class Book {
+    var isBorrowed: Bool = false
+    func switchBorrow() {
+        isBorrowed.toggle()
+    }
+}
+
 struct ObservationView: View {
     @State private var book = Book()
     var body: some View {

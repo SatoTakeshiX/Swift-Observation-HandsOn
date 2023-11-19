@@ -16,7 +16,6 @@
 		30BA93422B09AEC500731AB3 /* BookAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93362B09AEC500731AB3 /* BookAccountViewController.swift */; };
 		30BA93432B09AEC500731AB3 /* BookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93372B09AEC500731AB3 /* BookAccount.swift */; };
 		30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93392B09AEC500731AB3 /* ObservationView.swift */; };
-		30BA93452B09AEC500731AB3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933A2B09AEC500731AB3 /* Book.swift */; };
 		30BA93462B09AEC500731AB3 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933C2B09AEC500731AB3 /* ObservableObjectView.swift */; };
 		30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933D2B09AEC500731AB3 /* BookModel.swift */; };
 		30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933F2B09AEC500731AB3 /* KVOViewController.swift */; };
@@ -26,10 +25,8 @@
 		30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA934F2B09B1EC00731AB3 /* ComputedObserverView.swift */; };
 		30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */; };
 		30BA936E2B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */; };
-		30BA936F2B09B1EC00731AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */; };
 		30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93572B09B1EC00731AB3 /* BindingView.swift */; };
-		30BA93712B09B1EC00731AB3 /* BookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93582B09B1EC00731AB3 /* BookAccount.swift */; };
-		30BA93722B09B1EC00731AB3 /* NestedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */; };
+		30BA93712B09B1EC00731AB3 /* BookAccount2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93582B09B1EC00731AB3 /* BookAccount2.swift */; };
 		30BA93732B09B1EC00731AB3 /* NestedObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */; };
 		30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */; };
 		30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93602B09B1EC00731AB3 /* NovelView.swift */; };
@@ -39,7 +36,6 @@
 		30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */; };
 		30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */; };
 		30BA937B2B09B1EC00731AB3 /* SubClassObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */; };
-		30BA937C2B09B1EC00731AB3 /* SubClassObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA936A2B09B1EC00731AB3 /* SubClassObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +60,6 @@
 		30BA93362B09AEC500731AB3 /* BookAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccountViewController.swift; sourceTree = "<group>"; };
 		30BA93372B09AEC500731AB3 /* BookAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount.swift; sourceTree = "<group>"; };
 		30BA93392B09AEC500731AB3 /* ObservationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationView.swift; sourceTree = "<group>"; };
-		30BA933A2B09AEC500731AB3 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		30BA933C2B09AEC500731AB3 /* ObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		30BA933D2B09AEC500731AB3 /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		30BA933F2B09AEC500731AB3 /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +71,7 @@
 		30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservableObjectView.swift; sourceTree = "<group>"; };
 		30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30BA93572B09B1EC00731AB3 /* BindingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
-		30BA93582B09B1EC00731AB3 /* BookAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount.swift; sourceTree = "<group>"; };
+		30BA93582B09B1EC00731AB3 /* BookAccount2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount2.swift; sourceTree = "<group>"; };
 		30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObjectView.swift; sourceTree = "<group>"; };
 		30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObservableView.swift; sourceTree = "<group>"; };
 		30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWrappersObservableView.swift; sourceTree = "<group>"; };
@@ -213,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				30BA93392B09AEC500731AB3 /* ObservationView.swift */,
-				30BA933A2B09AEC500731AB3 /* Book.swift */,
 			);
 			path = Observation;
 			sourceTree = "<group>";
@@ -274,7 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				30BA93562B09B1EC00731AB3 /* Binding */,
-				30BA93582B09B1EC00731AB3 /* BookAccount.swift */,
+				30BA93582B09B1EC00731AB3 /* BookAccount2.swift */,
 			);
 			path = Observation;
 			sourceTree = "<group>";
@@ -431,7 +425,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				30BA930C2B09A9D600731AB3 /* Preview Assets.xcassets in Resources */,
-				30BA936F2B09B1EC00731AB3 /* Preview Assets.xcassets in Resources */,
 				30BA93092B09A9D600731AB3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,12 +448,9 @@
 				30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */,
 				30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */,
 				30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */,
-				30BA93722B09B1EC00731AB3 /* NestedObjectView.swift in Sources */,
 				30BA936B2B09B1EC00731AB3 /* ComputedObjectView.swift in Sources */,
-				30BA93452B09AEC500731AB3 /* Book.swift in Sources */,
 				30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */,
 				30BA93772B09B1EC00731AB3 /* ObservableObjectParentView.swift in Sources */,
-				30BA937C2B09B1EC00731AB3 /* SubClassObservableView.swift in Sources */,
 				30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */,
 				30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */,
 				30BA93762B09B1EC00731AB3 /* BookAccountObject.swift in Sources */,
@@ -475,7 +465,7 @@
 				30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */,
 				30BA93412B09AEC500731AB3 /* SE-0400.swift in Sources */,
 				30BA93492B09AEC500731AB3 /* BookObjectObserve.swift in Sources */,
-				30BA93712B09B1EC00731AB3 /* BookAccount.swift in Sources */,
+				30BA93712B09B1EC00731AB3 /* BookAccount2.swift in Sources */,
 				30BA934C2B09B1DC00731AB3 /* ObservationUsage.swift in Sources */,
 				30BA93432B09AEC500731AB3 /* BookAccount.swift in Sources */,
 				30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */,
@@ -644,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -674,7 +664,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
