@@ -8,10 +8,10 @@
 import Foundation
 
 @Observable
-final class Lesson {
-    let name: String
+final class Lesson: Identifiable {
+    var name: String
     private(set) var perticipants: [Participant]
-    private(set) var duration: Int
+    var duration: Int
 
     var sumNumber: Int {
         perticipants.count
