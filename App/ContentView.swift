@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Section("オブザーバーパターン") {
+                Section("Chapter1") {
                     NavigationLink(
                         destination: KVOView()
                             .navigationTitle("KVO") // UIViewController in UIViewControllerRepresentable doesn't work title. so I update the navigation title in SwiftUI side.
@@ -29,17 +29,81 @@ struct ContentView: View {
                     ) {
                         Text("Observation")
                     }
-                }
 
-                Section("Observationの仕組み") {
                     NavigationLink(
                         destination: BookAccountView()
                     ) {
-                        Text("BookAccount")
+                        Text("Observableマクロのコード生成")
                     }
                 }
+                
+                Section("Chapter3") {
+                    NavigationLink(
+                        destination: ComputedObjectView()
+                    ) {
+                        Text("ComputedObjectView")
+                    }
+
+                    NavigationLink(
+                        destination: ComputedObserverView()
+                    ) {
+                        Text("ComputedObserverView")
+                    }
+
+                    NavigationLink(
+                        destination: WillSetDidSetObservableObjectView()
+                    ) {
+                        Text("WillSetDidSetObservableObjectView")
+                    }
+
+                    NavigationLink(
+                        destination: WillSetDidSetObservableView()
+                    ) {
+                        Text("WillSetDidSetObservableView")
+                    }
+
+                    NavigationLink(
+                        destination: SubClassObjectView()
+                    ) {
+                        Text("SubClassObjectView")
+                    }
+
+                    NavigationLink(
+                        destination: SubClassObservableView()
+                    ) {
+                        Text("SubClassObservableView")
+                    }
+
+                    NavigationLink(
+                        destination: ParentObjectView()
+                    ) {
+                        Text("ParentObjectView")
+                    }
+
+                    NavigationLink(
+                        destination: ParentObservableView()
+                    ) {
+                        Text("ParentObservableView")
+                    }
+
+                    NavigationLink(
+                        destination: NestedObjectView()
+                    ) {
+                        Text("NestedObjectView")
+                    }
+
+                    NavigationLink(
+                        destination: NestedObservableView()
+                    ) {
+                        Text("NestedObservableView")
+                    }
+                }
+
+                Section("Chapter4") {
+
+                }
             }
-            .navigationTitle("Chapter 1")
+            .navigationTitle("Observation入門")
             .scrollContentBackground(.hidden)
             .background(Color(.systemGray6))
         }

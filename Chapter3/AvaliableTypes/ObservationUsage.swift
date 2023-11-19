@@ -19,3 +19,11 @@ actor ActorA {}
 
 @Observable
 class ClassA {}
+
+// struct StructObject: ObservableObject {}
+// Non-class type 'StructObject' cannot conform to class protocol 'ObservableObject'
+
+// enum EnumObject: ObservableObject {}
+// Non-class type 'EnumObject' cannot conform to class protocol 'ObservableObject'
+
+class ClassAObject: ObservableObject {}

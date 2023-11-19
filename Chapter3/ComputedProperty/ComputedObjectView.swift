@@ -8,7 +8,7 @@
 import SwiftUI
 
 private final class Counter: ObservableObject {
-    /*@Published*/ var count: Int = 0
+    @Published var count: Int = 0
 
     var doubleCount: Int {
         count * 2
@@ -19,7 +19,7 @@ private final class Counter: ObservableObject {
     }
 }
 
-private struct ComputedObjectView: View {
+struct ComputedObjectView: View {
     @StateObject private var counter = Counter()
 
     var body: some View {

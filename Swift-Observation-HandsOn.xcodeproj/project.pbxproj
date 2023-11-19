@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30259BC82B09D28000751D51 /* SubClassObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA936A2B09B1EC00731AB3 /* SubClassObservableView.swift */; };
+		30259BC92B09D2F300751D51 /* NestedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */; };
 		30BA93052B09A9D500731AB3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93042B09A9D500731AB3 /* App.swift */; };
 		30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93062B09A9D500731AB3 /* ContentView.swift */; };
 		30BA93092B09A9D600731AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA93082B09A9D600731AB3 /* Assets.xcassets */; };
@@ -25,14 +27,8 @@
 		30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA934F2B09B1EC00731AB3 /* ComputedObserverView.swift */; };
 		30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */; };
 		30BA936E2B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */; };
-		30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93572B09B1EC00731AB3 /* BindingView.swift */; };
-		30BA93712B09B1EC00731AB3 /* BookAccount2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93582B09B1EC00731AB3 /* BookAccount2.swift */; };
 		30BA93732B09B1EC00731AB3 /* NestedObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */; };
-		30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */; };
-		30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93602B09B1EC00731AB3 /* NovelView.swift */; };
-		30BA93762B09B1EC00731AB3 /* BookAccountObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */; };
-		30BA93772B09B1EC00731AB3 /* ObservableObjectParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */; };
-		30BA93782B09B1EC00731AB3 /* NovelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93642B09B1EC00731AB3 /* NovelObject.swift */; };
+		30BA93742B09B1EC00731AB3 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935D2B09B1EC00731AB3 /* PropertyWrappers.swift */; };
 		30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */; };
 		30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */; };
 		30BA937B2B09B1EC00731AB3 /* SubClassObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */; };
@@ -70,15 +66,9 @@
 		30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservable.swift; sourceTree = "<group>"; };
 		30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservableObjectView.swift; sourceTree = "<group>"; };
 		30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		30BA93572B09B1EC00731AB3 /* BindingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
-		30BA93582B09B1EC00731AB3 /* BookAccount2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount2.swift; sourceTree = "<group>"; };
 		30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObjectView.swift; sourceTree = "<group>"; };
 		30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObservableView.swift; sourceTree = "<group>"; };
-		30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWrappersObservableView.swift; sourceTree = "<group>"; };
-		30BA93602B09B1EC00731AB3 /* NovelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelView.swift; sourceTree = "<group>"; };
-		30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccountObject.swift; sourceTree = "<group>"; };
-		30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObjectParentView.swift; sourceTree = "<group>"; };
-		30BA93642B09B1EC00731AB3 /* NovelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelObject.swift; sourceTree = "<group>"; };
+		30BA935D2B09B1EC00731AB3 /* PropertyWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 		30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildObjectView.swift; sourceTree = "<group>"; };
 		30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildObservableView.swift; sourceTree = "<group>"; };
 		30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubClassObjectView.swift; sourceTree = "<group>"; };
@@ -174,16 +164,14 @@
 		30BA93322B09AC2200731AB3 /* Chapter3 */ = {
 			isa = PBXGroup;
 			children = (
-				30BA93652B09B1EC00731AB3 /* ChildView */,
 				30BA934D2B09B1EC00731AB3 /* ComputedProperty */,
-				30BA93592B09B1EC00731AB3 /* NestingView */,
-				30BA935E2B09B1EC00731AB3 /* ObservableObject */,
-				30BA93552B09B1EC00731AB3 /* Observation */,
-				30BA93532B09B1EC00731AB3 /* Preview Content */,
+				30BA934A2B09B1DC00731AB3 /* AvaliableTypes */,
+				30BA93502B09B1EC00731AB3 /* WillSetDidSet */,
 				30BA935C2B09B1EC00731AB3 /* PropertyWrappers */,
 				30BA93682B09B1EC00731AB3 /* SubClass */,
-				30BA93502B09B1EC00731AB3 /* WillSetDidSet */,
-				30BA934A2B09B1DC00731AB3 /* AvaliableTypes */,
+				30BA93652B09B1EC00731AB3 /* ChildView */,
+				30BA93592B09B1EC00731AB3 /* NestingView */,
+				30BA93532B09B1EC00731AB3 /* Preview Content */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -250,8 +238,8 @@
 		30BA93502B09B1EC00731AB3 /* WillSetDidSet */ = {
 			isa = PBXGroup;
 			children = (
-				30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */,
 				30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */,
+				30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */,
 			);
 			path = WillSetDidSet;
 			sourceTree = "<group>";
@@ -262,23 +250,6 @@
 				30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		30BA93552B09B1EC00731AB3 /* Observation */ = {
-			isa = PBXGroup;
-			children = (
-				30BA93562B09B1EC00731AB3 /* Binding */,
-				30BA93582B09B1EC00731AB3 /* BookAccount2.swift */,
-			);
-			path = Observation;
-			sourceTree = "<group>";
-		};
-		30BA93562B09B1EC00731AB3 /* Binding */ = {
-			isa = PBXGroup;
-			children = (
-				30BA93572B09B1EC00731AB3 /* BindingView.swift */,
-			);
-			path = Binding;
 			sourceTree = "<group>";
 		};
 		30BA93592B09B1EC00731AB3 /* NestingView */ = {
@@ -293,36 +264,9 @@
 		30BA935C2B09B1EC00731AB3 /* PropertyWrappers */ = {
 			isa = PBXGroup;
 			children = (
-				30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */,
+				30BA935D2B09B1EC00731AB3 /* PropertyWrappers.swift */,
 			);
 			path = PropertyWrappers;
-			sourceTree = "<group>";
-		};
-		30BA935E2B09B1EC00731AB3 /* ObservableObject */ = {
-			isa = PBXGroup;
-			children = (
-				30BA935F2B09B1EC00731AB3 /* SubClass */,
-				30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */,
-				30BA93622B09B1EC00731AB3 /* Binding */,
-				30BA93642B09B1EC00731AB3 /* NovelObject.swift */,
-			);
-			path = ObservableObject;
-			sourceTree = "<group>";
-		};
-		30BA935F2B09B1EC00731AB3 /* SubClass */ = {
-			isa = PBXGroup;
-			children = (
-				30BA93602B09B1EC00731AB3 /* NovelView.swift */,
-			);
-			path = SubClass;
-			sourceTree = "<group>";
-		};
-		30BA93622B09B1EC00731AB3 /* Binding */ = {
-			isa = PBXGroup;
-			children = (
-				30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */,
-			);
-			path = Binding;
 			sourceTree = "<group>";
 		};
 		30BA93652B09B1EC00731AB3 /* ChildView */ = {
@@ -445,27 +389,23 @@
 			files = (
 				30BA93732B09B1EC00731AB3 /* NestedObservableView.swift in Sources */,
 				30BA937B2B09B1EC00731AB3 /* SubClassObjectView.swift in Sources */,
-				30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */,
 				30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */,
 				30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */,
+				30259BC92B09D2F300751D51 /* NestedObjectView.swift in Sources */,
 				30BA936B2B09B1EC00731AB3 /* ComputedObjectView.swift in Sources */,
 				30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */,
-				30BA93772B09B1EC00731AB3 /* ObservableObjectParentView.swift in Sources */,
 				30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */,
-				30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */,
-				30BA93762B09B1EC00731AB3 /* BookAccountObject.swift in Sources */,
+				30BA93742B09B1EC00731AB3 /* PropertyWrappers.swift in Sources */,
 				30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */,
 				30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */,
 				30BA93422B09AEC500731AB3 /* BookAccountViewController.swift in Sources */,
 				30BA93462B09AEC500731AB3 /* ObservableObjectView.swift in Sources */,
-				30BA93782B09B1EC00731AB3 /* NovelObject.swift in Sources */,
 				30BA93052B09A9D500731AB3 /* App.swift in Sources */,
 				30BA936E2B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift in Sources */,
 				30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */,
-				30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */,
+				30259BC82B09D28000751D51 /* SubClassObservableView.swift in Sources */,
 				30BA93412B09AEC500731AB3 /* SE-0400.swift in Sources */,
 				30BA93492B09AEC500731AB3 /* BookObjectObserve.swift in Sources */,
-				30BA93712B09B1EC00731AB3 /* BookAccount2.swift in Sources */,
 				30BA934C2B09B1DC00731AB3 /* ObservationUsage.swift in Sources */,
 				30BA93432B09AEC500731AB3 /* BookAccount.swift in Sources */,
 				30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */,

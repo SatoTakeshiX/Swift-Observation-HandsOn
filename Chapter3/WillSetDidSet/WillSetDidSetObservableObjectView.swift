@@ -6,10 +6,24 @@
 //
 
 import SwiftUI
-// Observable
+
+fileprivate final class Book: ObservableObject {
+    @Published var borrowedName: String {
+        willSet {
+            print("willSet")
+        }
+        didSet {
+            print("didSet")
+        }
+    }
+
+    init(borrowedName: String) {
+        self.borrowedName = borrowedName
+    }
+}
 
 struct WillSetDidSetObservableObjectView: View {
-    @StateObject private var book = Book3(borrowedName: "貸出可能")
+    @StateObject private var book = Book(borrowedName: "貸出可能")
     var body: some View {
         Text(book.borrowedName)
         Button(action: {
@@ -23,19 +37,4 @@ struct WillSetDidSetObservableObjectView: View {
 
 #Preview {
     WillSetDidSetObservableObjectView()
-}
-
-private final class Book3: ObservableObject {
-    @Published var borrowedName: String {
-        willSet {
-            print("willSet")
-        }
-        didSet {
-            print("didSet")
-        }
-    }
-
-    init(borrowedName: String) {
-        self.borrowedName = borrowedName
-    }
 }

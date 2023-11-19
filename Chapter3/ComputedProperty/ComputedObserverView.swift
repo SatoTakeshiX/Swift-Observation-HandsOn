@@ -20,7 +20,7 @@ private final class Counter {
     }
 }
 
-private struct ComputedObserverView: View {
+struct ComputedObserverView: View {
     @State private var counter = Counter()
     var body: some View {
         Text(counter.doubleCount.description)
