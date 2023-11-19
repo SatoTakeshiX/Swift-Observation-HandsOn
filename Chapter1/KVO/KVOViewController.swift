@@ -30,12 +30,14 @@ final class KVOViewController: UIViewController {
         label.text = "貸出可能"
         button.setTitle("この本を借りる", for: .normal)
         observation = observe(\.bookModel.isBorrowed, options: [.old, .new]) { object, change in
-            if change.newValue == true {
-                object.label.text = "貸出中"
-                object.button.setTitle("この本を返す", for: .normal)
-            } else {
-                object.label.text = "貸出可能"
-                object.button.setTitle("この本を借りる", for: .normal)
+            Task { @MainActor in
+                if change.newValue == true {
+                    object.label.text = "貸出中"
+                    object.button.setTitle("この本を返す", for: .normal)
+                } else {
+                    object.label.text = "貸出可能"
+                    object.button.setTitle("この本を借りる", for: .normal)
+                }
             }
         }
         button.addTarget(self, action: #selector(changeBorrowed), for: .touchUpInside)
