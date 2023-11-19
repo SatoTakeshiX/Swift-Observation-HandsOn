@@ -9,13 +9,13 @@ import Foundation
 import Observation
 
 @Observable
-final class BookAccount {
+final class BookAccount2 {
     var isBorrowed: Bool = false
     var name: String = ""
-    var place: BookShelfPlace = .init()
+    var place: BookShelfPlace2 = .init()
 }
 
 @Observable
-final class BookShelfPlace {
+final class BookShelfPlace2 {
     var place: String = "右から三番目"
 }

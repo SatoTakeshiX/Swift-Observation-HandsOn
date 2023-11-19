@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BA93052B09A9D500731AB3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93042B09A9D500731AB3 /* App.swift */; };
+		30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93062B09A9D500731AB3 /* ContentView.swift */; };
+		30BA93092B09A9D600731AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA93082B09A9D600731AB3 /* Assets.xcassets */; };
+		30BA930C2B09A9D600731AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA930B2B09A9D600731AB3 /* Preview Assets.xcassets */; };
+		30BA932F2B09AB7100731AB3 /* Chapter1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA932E2B09AB7000731AB3 /* Chapter1Tests.swift */; };
+		30BA93412B09AEC500731AB3 /* SE-0400.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93352B09AEC500731AB3 /* SE-0400.swift */; };
+		30BA93422B09AEC500731AB3 /* BookAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93362B09AEC500731AB3 /* BookAccountViewController.swift */; };
+		30BA93432B09AEC500731AB3 /* BookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93372B09AEC500731AB3 /* BookAccount.swift */; };
+		30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93392B09AEC500731AB3 /* ObservationView.swift */; };
+		30BA93452B09AEC500731AB3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933A2B09AEC500731AB3 /* Book.swift */; };
+		30BA93462B09AEC500731AB3 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933C2B09AEC500731AB3 /* ObservableObjectView.swift */; };
+		30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933D2B09AEC500731AB3 /* BookModel.swift */; };
+		30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA933F2B09AEC500731AB3 /* KVOViewController.swift */; };
+		30BA93492B09AEC500731AB3 /* BookObjectObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93402B09AEC500731AB3 /* BookObjectObserve.swift */; };
+		30BA934C2B09B1DC00731AB3 /* ObservationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA934B2B09B1DC00731AB3 /* ObservationUsage.swift */; };
+		30BA936B2B09B1EC00731AB3 /* ComputedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA934E2B09B1EC00731AB3 /* ComputedObjectView.swift */; };
+		30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA934F2B09B1EC00731AB3 /* ComputedObserverView.swift */; };
+		30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */; };
+		30BA936E2B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */; };
+		30BA936F2B09B1EC00731AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */; };
+		30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93572B09B1EC00731AB3 /* BindingView.swift */; };
+		30BA93712B09B1EC00731AB3 /* BookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93582B09B1EC00731AB3 /* BookAccount.swift */; };
+		30BA93722B09B1EC00731AB3 /* NestedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */; };
+		30BA93732B09B1EC00731AB3 /* NestedObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */; };
+		30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */; };
+		30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93602B09B1EC00731AB3 /* NovelView.swift */; };
+		30BA93762B09B1EC00731AB3 /* BookAccountObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */; };
+		30BA93772B09B1EC00731AB3 /* ObservableObjectParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */; };
+		30BA93782B09B1EC00731AB3 /* NovelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93642B09B1EC00731AB3 /* NovelObject.swift */; };
+		30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */; };
+		30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */; };
+		30BA937B2B09B1EC00731AB3 /* SubClassObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */; };
+		30BA937C2B09B1EC00731AB3 /* SubClassObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA936A2B09B1EC00731AB3 /* SubClassObservableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30BA93122B09A9D600731AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BA92F92B09A9D500731AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BA93002B09A9D500731AB3;
+			remoteInfo = "Swift-Observation-HandsOn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30BA93012B09A9D500731AB3 /* Swift-Observation-HandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Observation-HandsOn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA93042B09A9D500731AB3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		30BA93062B09A9D500731AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30BA93082B09A9D600731AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BA930B2B09A9D600731AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30BA93112B09A9D600731AB3 /* Swift-Observation-HandsOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Observation-HandsOnTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA932E2B09AB7000731AB3 /* Chapter1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1Tests.swift; sourceTree = "<group>"; };
+		30BA93352B09AEC500731AB3 /* SE-0400.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SE-0400.swift"; sourceTree = "<group>"; };
+		30BA93362B09AEC500731AB3 /* BookAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccountViewController.swift; sourceTree = "<group>"; };
+		30BA93372B09AEC500731AB3 /* BookAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount.swift; sourceTree = "<group>"; };
+		30BA93392B09AEC500731AB3 /* ObservationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationView.swift; sourceTree = "<group>"; };
+		30BA933A2B09AEC500731AB3 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		30BA933C2B09AEC500731AB3 /* ObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
+		30BA933D2B09AEC500731AB3 /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		30BA933F2B09AEC500731AB3 /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
+		30BA93402B09AEC500731AB3 /* BookObjectObserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookObjectObserve.swift; sourceTree = "<group>"; };
+		30BA934B2B09B1DC00731AB3 /* ObservationUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationUsage.swift; sourceTree = "<group>"; };
+		30BA934E2B09B1EC00731AB3 /* ComputedObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputedObjectView.swift; sourceTree = "<group>"; };
+		30BA934F2B09B1EC00731AB3 /* ComputedObserverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputedObserverView.swift; sourceTree = "<group>"; };
+		30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservable.swift; sourceTree = "<group>"; };
+		30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillSetDidSetObservableObjectView.swift; sourceTree = "<group>"; };
+		30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30BA93572B09B1EC00731AB3 /* BindingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		30BA93582B09B1EC00731AB3 /* BookAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccount.swift; sourceTree = "<group>"; };
+		30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObjectView.swift; sourceTree = "<group>"; };
+		30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedObservableView.swift; sourceTree = "<group>"; };
+		30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWrappersObservableView.swift; sourceTree = "<group>"; };
+		30BA93602B09B1EC00731AB3 /* NovelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelView.swift; sourceTree = "<group>"; };
+		30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAccountObject.swift; sourceTree = "<group>"; };
+		30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObjectParentView.swift; sourceTree = "<group>"; };
+		30BA93642B09B1EC00731AB3 /* NovelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelObject.swift; sourceTree = "<group>"; };
+		30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildObjectView.swift; sourceTree = "<group>"; };
+		30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildObservableView.swift; sourceTree = "<group>"; };
+		30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubClassObjectView.swift; sourceTree = "<group>"; };
+		30BA936A2B09B1EC00731AB3 /* SubClassObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubClassObservableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BA92FE2B09A9D500731AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA930E2B09A9D600731AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BA92F82B09A9D500731AB3 = {
+			isa = PBXGroup;
+			children = (
+				30BA93032B09A9D500731AB3 /* App */,
+				30BA93302B09ABEA00731AB3 /* Chapter1 */,
+				30BA93312B09AC1B00731AB3 /* Chapter2 */,
+				30BA93322B09AC2200731AB3 /* Chapter3 */,
+				30BA93332B09AC2800731AB3 /* Chapter4 */,
+				30BA93142B09A9D600731AB3 /* UnitTests */,
+				30BA93022B09A9D500731AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BA93022B09A9D500731AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93012B09A9D500731AB3 /* Swift-Observation-HandsOn.app */,
+				30BA93112B09A9D600731AB3 /* Swift-Observation-HandsOnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BA93032B09A9D500731AB3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93042B09A9D500731AB3 /* App.swift */,
+				30BA93062B09A9D500731AB3 /* ContentView.swift */,
+				30BA93082B09A9D600731AB3 /* Assets.xcassets */,
+				30BA930A2B09A9D600731AB3 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		30BA930A2B09A9D600731AB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30BA930B2B09A9D600731AB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30BA93142B09A9D600731AB3 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				30BA932E2B09AB7000731AB3 /* Chapter1Tests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		30BA93302B09ABEA00731AB3 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA933E2B09AEC500731AB3 /* KVO */,
+				30BA933B2B09AEC500731AB3 /* ObservableObject */,
+				30BA93382B09AEC500731AB3 /* Observation */,
+				30BA93342B09AEC500731AB3 /* ObservationMechanism */,
+			);
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		30BA93312B09AC1B00731AB3 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93352B09AEC500731AB3 /* SE-0400.swift */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		30BA93322B09AC2200731AB3 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93652B09B1EC00731AB3 /* ChildView */,
+				30BA934D2B09B1EC00731AB3 /* ComputedProperty */,
+				30BA93592B09B1EC00731AB3 /* NestingView */,
+				30BA935E2B09B1EC00731AB3 /* ObservableObject */,
+				30BA93552B09B1EC00731AB3 /* Observation */,
+				30BA93532B09B1EC00731AB3 /* Preview Content */,
+				30BA935C2B09B1EC00731AB3 /* PropertyWrappers */,
+				30BA93682B09B1EC00731AB3 /* SubClass */,
+				30BA93502B09B1EC00731AB3 /* WillSetDidSet */,
+				30BA934A2B09B1DC00731AB3 /* AvaliableTypes */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		30BA93332B09AC2800731AB3 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter4;
+			sourceTree = "<group>";
+		};
+		30BA93342B09AEC500731AB3 /* ObservationMechanism */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93362B09AEC500731AB3 /* BookAccountViewController.swift */,
+				30BA93372B09AEC500731AB3 /* BookAccount.swift */,
+			);
+			path = ObservationMechanism;
+			sourceTree = "<group>";
+		};
+		30BA93382B09AEC500731AB3 /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93392B09AEC500731AB3 /* ObservationView.swift */,
+				30BA933A2B09AEC500731AB3 /* Book.swift */,
+			);
+			path = Observation;
+			sourceTree = "<group>";
+		};
+		30BA933B2B09AEC500731AB3 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				30BA933C2B09AEC500731AB3 /* ObservableObjectView.swift */,
+				30BA933D2B09AEC500731AB3 /* BookModel.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		30BA933E2B09AEC500731AB3 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				30BA933F2B09AEC500731AB3 /* KVOViewController.swift */,
+				30BA93402B09AEC500731AB3 /* BookObjectObserve.swift */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		30BA934A2B09B1DC00731AB3 /* AvaliableTypes */ = {
+			isa = PBXGroup;
+			children = (
+				30BA934B2B09B1DC00731AB3 /* ObservationUsage.swift */,
+			);
+			path = AvaliableTypes;
+			sourceTree = "<group>";
+		};
+		30BA934D2B09B1EC00731AB3 /* ComputedProperty */ = {
+			isa = PBXGroup;
+			children = (
+				30BA934E2B09B1EC00731AB3 /* ComputedObjectView.swift */,
+				30BA934F2B09B1EC00731AB3 /* ComputedObserverView.swift */,
+			);
+			path = ComputedProperty;
+			sourceTree = "<group>";
+		};
+		30BA93502B09B1EC00731AB3 /* WillSetDidSet */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */,
+				30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */,
+			);
+			path = WillSetDidSet;
+			sourceTree = "<group>";
+		};
+		30BA93532B09B1EC00731AB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93542B09B1EC00731AB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30BA93552B09B1EC00731AB3 /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93562B09B1EC00731AB3 /* Binding */,
+				30BA93582B09B1EC00731AB3 /* BookAccount.swift */,
+			);
+			path = Observation;
+			sourceTree = "<group>";
+		};
+		30BA93562B09B1EC00731AB3 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93572B09B1EC00731AB3 /* BindingView.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		30BA93592B09B1EC00731AB3 /* NestingView */ = {
+			isa = PBXGroup;
+			children = (
+				30BA935A2B09B1EC00731AB3 /* NestedObjectView.swift */,
+				30BA935B2B09B1EC00731AB3 /* NestedObservableView.swift */,
+			);
+			path = NestingView;
+			sourceTree = "<group>";
+		};
+		30BA935C2B09B1EC00731AB3 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				30BA935D2B09B1EC00731AB3 /* PropertyWrappersObservableView.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		30BA935E2B09B1EC00731AB3 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				30BA935F2B09B1EC00731AB3 /* SubClass */,
+				30BA93612B09B1EC00731AB3 /* BookAccountObject.swift */,
+				30BA93622B09B1EC00731AB3 /* Binding */,
+				30BA93642B09B1EC00731AB3 /* NovelObject.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		30BA935F2B09B1EC00731AB3 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93602B09B1EC00731AB3 /* NovelView.swift */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+		30BA93622B09B1EC00731AB3 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93632B09B1EC00731AB3 /* ObservableObjectParentView.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		30BA93652B09B1EC00731AB3 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */,
+				30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		30BA93682B09B1EC00731AB3 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				30BA93692B09B1EC00731AB3 /* SubClassObjectView.swift */,
+				30BA936A2B09B1EC00731AB3 /* SubClassObservableView.swift */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BA93002B09A9D500731AB3 /* Swift-Observation-HandsOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA93252B09A9D600731AB3 /* Build configuration list for PBXNativeTarget "Swift-Observation-HandsOn" */;
+			buildPhases = (
+				30BA92FD2B09A9D500731AB3 /* Sources */,
+				30BA92FE2B09A9D500731AB3 /* Frameworks */,
+				30BA92FF2B09A9D500731AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Observation-HandsOn";
+			productName = "Swift-Observation-HandsOn";
+			productReference = 30BA93012B09A9D500731AB3 /* Swift-Observation-HandsOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30BA93102B09A9D600731AB3 /* Swift-Observation-HandsOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA93282B09A9D600731AB3 /* Build configuration list for PBXNativeTarget "Swift-Observation-HandsOnTests" */;
+			buildPhases = (
+				30BA930D2B09A9D600731AB3 /* Sources */,
+				30BA930E2B09A9D600731AB3 /* Frameworks */,
+				30BA930F2B09A9D600731AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BA93132B09A9D600731AB3 /* PBXTargetDependency */,
+			);
+			name = "Swift-Observation-HandsOnTests";
+			productName = "Swift-Observation-HandsOnTests";
+			productReference = 30BA93112B09A9D600731AB3 /* Swift-Observation-HandsOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BA92F92B09A9D500731AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					30BA93002B09A9D500731AB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					30BA93102B09A9D600731AB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 30BA93002B09A9D500731AB3;
+					};
+				};
+			};
+			buildConfigurationList = 30BA92FC2B09A9D500731AB3 /* Build configuration list for PBXProject "Swift-Observation-HandsOn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30BA92F82B09A9D500731AB3;
+			productRefGroup = 30BA93022B09A9D500731AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BA93002B09A9D500731AB3 /* Swift-Observation-HandsOn */,
+				30BA93102B09A9D600731AB3 /* Swift-Observation-HandsOnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BA92FF2B09A9D500731AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA930C2B09A9D600731AB3 /* Preview Assets.xcassets in Resources */,
+				30BA936F2B09B1EC00731AB3 /* Preview Assets.xcassets in Resources */,
+				30BA93092B09A9D600731AB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA930F2B09A9D600731AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BA92FD2B09A9D500731AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA93732B09B1EC00731AB3 /* NestedObservableView.swift in Sources */,
+				30BA937B2B09B1EC00731AB3 /* SubClassObjectView.swift in Sources */,
+				30BA93752B09B1EC00731AB3 /* NovelView.swift in Sources */,
+				30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */,
+				30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */,
+				30BA93722B09B1EC00731AB3 /* NestedObjectView.swift in Sources */,
+				30BA936B2B09B1EC00731AB3 /* ComputedObjectView.swift in Sources */,
+				30BA93452B09AEC500731AB3 /* Book.swift in Sources */,
+				30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */,
+				30BA93772B09B1EC00731AB3 /* ObservableObjectParentView.swift in Sources */,
+				30BA937C2B09B1EC00731AB3 /* SubClassObservableView.swift in Sources */,
+				30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */,
+				30BA93742B09B1EC00731AB3 /* PropertyWrappersObservableView.swift in Sources */,
+				30BA93762B09B1EC00731AB3 /* BookAccountObject.swift in Sources */,
+				30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */,
+				30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */,
+				30BA93422B09AEC500731AB3 /* BookAccountViewController.swift in Sources */,
+				30BA93462B09AEC500731AB3 /* ObservableObjectView.swift in Sources */,
+				30BA93782B09B1EC00731AB3 /* NovelObject.swift in Sources */,
+				30BA93052B09A9D500731AB3 /* App.swift in Sources */,
+				30BA936E2B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift in Sources */,
+				30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */,
+				30BA93702B09B1EC00731AB3 /* BindingView.swift in Sources */,
+				30BA93412B09AEC500731AB3 /* SE-0400.swift in Sources */,
+				30BA93492B09AEC500731AB3 /* BookObjectObserve.swift in Sources */,
+				30BA93712B09B1EC00731AB3 /* BookAccount.swift in Sources */,
+				30BA934C2B09B1DC00731AB3 /* ObservationUsage.swift in Sources */,
+				30BA93432B09AEC500731AB3 /* BookAccount.swift in Sources */,
+				30BA936C2B09B1EC00731AB3 /* ComputedObserverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA930D2B09A9D600731AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA932F2B09AB7100731AB3 /* Chapter1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30BA93132B09A9D600731AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BA93002B09A9D500731AB3 /* Swift-Observation-HandsOn */;
+			targetProxy = 30BA93122B09A9D600731AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30BA93232B09A9D600731AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30BA93242B09A9D600731AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30BA93262B09A9D600731AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30BA93272B09A9D600731AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30BA93292B09A9D600731AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Observation-HandsOn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift-Observation-HandsOn";
+			};
+			name = Debug;
+		};
+		30BA932A2B09A9D600731AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal-Factory.Swift-Observation-HandsOnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Observation-HandsOn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift-Observation-HandsOn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BA92FC2B09A9D500731AB3 /* Build configuration list for PBXProject "Swift-Observation-HandsOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA93232B09A9D600731AB3 /* Debug */,
+				30BA93242B09A9D600731AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA93252B09A9D600731AB3 /* Build configuration list for PBXNativeTarget "Swift-Observation-HandsOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA93262B09A9D600731AB3 /* Debug */,
+				30BA93272B09A9D600731AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA93282B09A9D600731AB3 /* Build configuration list for PBXNativeTarget "Swift-Observation-HandsOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA93292B09A9D600731AB3 /* Debug */,
+				30BA932A2B09A9D600731AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30BA92F92B09A9D500731AB3 /* Project object */;
+}

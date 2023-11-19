@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Chapter1
+@testable import Swift_Observation_HandsOn
 
 final class Chapter1Tests: XCTestCase {
     func testTrackingStoredProperty() {

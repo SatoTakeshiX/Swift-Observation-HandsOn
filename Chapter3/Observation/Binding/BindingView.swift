@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ParentView: View {
-    @State private var bookAccount = BookAccount()
+    @State private var bookAccount = BookAccount2()
 
     var body: some View {
         let _ = Self._printChanges()
@@ -26,7 +26,7 @@ struct ParentView: View {
 }
 
 struct ChildView: View {
-    @Bindable var bookAccount: BookAccount
+    @Bindable var bookAccount: BookAccount2
     var body: some View {
         let _ = Self._printChanges()
         VStack {

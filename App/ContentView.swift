@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Chapter1
+//  Swift-Observation-HandsOn
 //
-//  Created by satoutakeshi on 2023/10/25.
+//  Created by satoutakeshi on 2023/11/19.
 //
 
 import SwiftUI
@@ -14,7 +14,7 @@ struct ContentView: View {
                 Section("オブザーバーパターン") {
                     NavigationLink(
                         destination: KVOView()
-                            .navigationTitle("KVO") // UIViewController in UIViewControllerRepresentable doesn't work title. so I update the navigation title in SwiftUI side. 
+                            .navigationTitle("KVO") // UIViewController in UIViewControllerRepresentable doesn't work title. so I update the navigation title in SwiftUI side.
                             .navigationBarTitleDisplayMode(.inline)
                     ) {
                         Text("KVO")
@@ -41,7 +41,7 @@ struct ContentView: View {
             }
             .navigationTitle("Chapter 1")
             .scrollContentBackground(.hidden)
-            .background(Color(.systemGray5))
+            .background(Color(.systemGray6))
         }
     }
 }
