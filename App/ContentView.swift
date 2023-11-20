@@ -102,8 +102,19 @@ struct ContentView: View {
 
                 Section("Chapter4") {
                     NavigationLink(
-                        destination: EnvironmentListView()
+                        destination: LocalPropertyView()
+                    ) {
+                        Text("EnvironmentListView")
+                    }
+                    
+                    NavigationLink(
+                        destination: PropertyListView()
+                    ) {
+                        Text("EnvironmentListView")
+                    }
 
+                    NavigationLink(
+                        destination: EnvironmentListView()
                     ) {
                         Text("EnvironmentListView")
                     }

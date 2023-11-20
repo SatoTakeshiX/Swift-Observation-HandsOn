@@ -20,7 +20,6 @@ struct PropertyListView: View {
     }
 }
 
-
 struct LocalPropertyView: View {
     var lesson: Lesson = .init(
         name: "ピアノ",
@@ -33,12 +32,20 @@ struct LocalPropertyView: View {
         Text("レッスン：\(lesson.name)")
             .font(.title)
         Text("参加者人数: \(lesson.sumNumber)")
-
+        Spacer()
+            .frame(height: 12)
         Button(action: {
             lesson.addPerticipant()
         }, label: {
             Text("参加者を増やす")
         })
+        Button(action: {
+            lesson.duration = Int.random(in: 30...60)
+        }, label: {
+            Text("レッスン時間を変える")
+        })
+        Spacer()
+            .frame(height: 8)
     }
 }
 
