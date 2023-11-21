@@ -49,6 +49,25 @@ struct LocalPropertyView: View {
     }
 }
 
+struct LocalPropertyParent: View {
+    @State var lesson = Lesson(
+        name: "英語",
+        perticipants: [],
+        duration: 60
+    )
+    var body: some View {
+        LocalPropertyChild(lesson: lesson)
+    }
+}
+
+struct LocalPropertyChild: View {
+    let lesson: Lesson
+
+    var body: some View {
+        Text(lesson.name)
+    }
+}
+
 #Preview {
     PropertyListView()
 }

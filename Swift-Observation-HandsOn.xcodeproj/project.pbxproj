@@ -16,6 +16,7 @@
 		30259BD72B0A3E8300751D51 /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30259BD62B0A3E8300751D51 /* EnvironmentView.swift */; };
 		30259BD92B0A50D000751D51 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30259BD82B0A50D000751D51 /* EnvironmentValues+Extension.swift */; };
 		30259BDC2B0A655500751D51 /* BindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30259BDB2B0A655500751D51 /* BindableView.swift */; };
+		30259BDF2B0C3EA400751D51 /* NestedValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30259BDE2B0C3EA400751D51 /* NestedValuesView.swift */; };
 		30BA93052B09A9D500731AB3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93042B09A9D500731AB3 /* App.swift */; };
 		30BA93072B09A9D500731AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93062B09A9D500731AB3 /* ContentView.swift */; };
 		30BA93092B09A9D600731AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA93082B09A9D600731AB3 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		30259BD62B0A3E8300751D51 /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		30259BD82B0A50D000751D51 /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
 		30259BDB2B0A655500751D51 /* BindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableView.swift; sourceTree = "<group>"; };
+		30259BDE2B0C3EA400751D51 /* NestedValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedValuesView.swift; sourceTree = "<group>"; };
 		30BA93012B09A9D500731AB3 /* Swift-Observation-HandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Observation-HandsOn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BA93042B09A9D500731AB3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		30BA93062B09A9D500731AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,14 @@
 			path = Bindable;
 			sourceTree = "<group>";
 		};
+		30259BDD2B0C3E3300751D51 /* NestedValues */ = {
+			isa = PBXGroup;
+			children = (
+				30259BDE2B0C3EA400751D51 /* NestedValuesView.swift */,
+			);
+			path = NestedValues;
+			sourceTree = "<group>";
+		};
 		30BA92F82B09A9D500731AB3 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				30259BCB2B0A155A00751D51 /* Model */,
+				30259BDD2B0C3E3300751D51 /* NestedValues */,
 				30259BCA2B0A154B00751D51 /* Property */,
 				30259BD22B0A3BB400751D51 /* State */,
 				30259BD52B0A3E2400751D51 /* Environment */,
@@ -461,6 +472,7 @@
 				30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */,
 				30BA93742B09B1EC00731AB3 /* PropertyWrappers.swift in Sources */,
 				30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */,
+				30259BDF2B0C3EA400751D51 /* NestedValuesView.swift in Sources */,
 				30BA936D2B09B1EC00731AB3 /* WillSetDidSetObservable.swift in Sources */,
 				30BA93422B09AEC500731AB3 /* BookAccountViewController.swift in Sources */,
 				30BA93462B09AEC500731AB3 /* ObservableObjectView.swift in Sources */,

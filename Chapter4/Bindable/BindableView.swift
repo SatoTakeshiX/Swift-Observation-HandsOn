@@ -8,7 +8,18 @@
 import SwiftUI
 
 struct BindableView: View {
-    @State private var lessons = [Lesson(name: "初めての料理教室", perticipants: [], duration: 120), Lesson(name: "初めてのワイン", perticipants: [], duration: 45)]
+    @State private var lessons = [
+        Lesson(
+            name: "初めての料理教室",
+            perticipants: [],
+            duration: 120
+        ),
+        Lesson(
+            name: "初めてのワイン",
+            perticipants: [],
+            duration: 45
+        )
+    ]
     var body: some View {
         List(lessons) { lesson in
             @Bindable var lesson = lesson
