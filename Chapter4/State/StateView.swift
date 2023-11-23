@@ -11,9 +11,7 @@ struct StateParentView: View {
     @State private var isShow: Bool = false
     var body: some View {
         let _ = Self._printChanges()
-        // if isShow {
-            StateView()
-        // }
+        StateView()
         Toggle(isOn: $isShow) {
             Text("親Viewの値を変更")
         }
