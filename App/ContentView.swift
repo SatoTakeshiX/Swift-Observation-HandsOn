@@ -104,19 +104,25 @@ struct ContentView: View {
                     NavigationLink(
                         destination: LocalPropertyView()
                     ) {
-                        Text("EnvironmentListView")
+                        Text("LocalPropertyView")
                     }
                     
                     NavigationLink(
                         destination: PropertyListView()
                     ) {
-                        Text("EnvironmentListView")
+                        Text("PropertyListView")
                     }
 
                     NavigationLink(
                         destination: EnvironmentListView()
                     ) {
                         Text("EnvironmentListView")
+                    }
+
+                    NavigationLink(
+                        destination: BindableView()
+                    ) {
+                        Text("BindableView")
                     }
                 }
             }

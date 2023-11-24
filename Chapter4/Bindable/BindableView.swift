@@ -20,13 +20,32 @@ struct BindableView: View {
             duration: 45
         )
     ]
+
+    @Environment(Lesson.self) private var environmentLesson
+
     var body: some View {
+        List(lessons) { lesson in
+            Section(lesson.name) {
+                BindableChildView(lesson: lesson)
+            }
+        }
+
+        @Bindable var environmentLesson = environmentLesson
+        TextField("環境値の名前1", text: $environmentLesson.name)
+
+        TextField("環境値の名前2", text: Bindable(environmentLesson).name)
+
+        TextField("環境値の名前3", text: .init(get: {
+            environmentLesson.name
+        }, set: { newValue in
+            environmentLesson.name = newValue
+        }))
+
         List(lessons) { lesson in
             @Bindable var lesson = lesson
             Section(lesson.name) {
-                Text("レッスン時間: \(lesson.duration)")
+                Text("レッスン時間: \(lesson.duration)分")
                 Stepper("時間を変える", value: $lesson.duration)
-                BindableChildView(lesson: lesson)
             }
         }
     }
@@ -35,7 +54,7 @@ struct BindableView: View {
 struct BindableChildView: View {
     @Bindable var lesson: Lesson
     var body: some View {
-        HStack {
+        VStack(alignment: .leading) {
             TextField("変更", text: $lesson.name)
         }
     }
@@ -43,4 +62,11 @@ struct BindableChildView: View {
 
 #Preview {
     BindableView()
+        .environment(
+            Lesson(
+                name: "デーブルマナーを学ぶ",
+                perticipants: [],
+                duration: 60
+            )
+        )
 }
