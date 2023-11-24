@@ -22,6 +22,11 @@ struct BindableView: View {
     ]
 
     @Environment(Lesson.self) private var environmentLesson
+    @State private var specialLesson = Lesson(
+        name: "特別レッスン",
+        perticipants: [],
+        duration: 0
+    )
 
     var body: some View {
         List(lessons) { lesson in
@@ -30,15 +35,17 @@ struct BindableView: View {
             }
         }
 
+        TextField("特別レッスン", text: $specialLesson.name)
+
         @Bindable var environmentLesson = environmentLesson
         TextField("環境値の名前1", text: $environmentLesson.name)
 
         TextField("環境値の名前2", text: Bindable(environmentLesson).name)
 
-        TextField("環境値の名前3", text: .init(get: {
-            environmentLesson.name
+        TextField("特別レッスン", text: Binding(get: {
+            specialLesson.name
         }, set: { newValue in
-            environmentLesson.name = newValue
+            specialLesson.name = newValue
         }))
 
         List(lessons) { lesson in
