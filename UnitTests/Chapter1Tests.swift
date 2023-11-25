@@ -23,7 +23,7 @@ final class Chapter1Tests: XCTestCase {
         wait(for: [exp], timeout: 0.5)
     }
 
-    func testTrackingCompuredProperty() {
+    func testTrackingComputedProperty() {
         let book = BookAccount()
         let exp = XCTestExpectation()
 
