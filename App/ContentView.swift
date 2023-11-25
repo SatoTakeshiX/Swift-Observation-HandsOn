@@ -64,15 +64,15 @@ struct ContentView: View {
                     }
 
                     NavigationLink(
-                        destination: SubClassObjectView()
+                        destination: SubclassObjectView()
                     ) {
-                        Text("SubClassObjectView")
+                        Text("SubclassObjectView")
                     }
 
                     NavigationLink(
-                        destination: SubClassObservableView()
+                        destination: SubclassObservableView()
                     ) {
-                        Text("SubClassObservableView")
+                        Text("SubclassObservableView")
                     }
 
                     NavigationLink(

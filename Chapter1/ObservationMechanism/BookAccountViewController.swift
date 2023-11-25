@@ -1,5 +1,5 @@
 //
-//  TutorialViewController.swift
+//  BookAccountViewController.swift
 //  Chapter1
 //
 //  Created by satoutakeshi on 2023/10/26.
@@ -20,6 +20,7 @@ struct BookAccountView: UIViewControllerRepresentable {
 
 final class BookAccountViewController: UIViewController {
     private let bookAccount = BookAccount()
+    private var flg: Bool = false
     private var borrowedStatelabel: UILabel = .init()
     private var borrowedCountlabel: UILabel = .init()
     private var button: UIButton = .init()
@@ -51,6 +52,24 @@ final class BookAccountViewController: UIViewController {
             guard let self else { return }
             Task { @MainActor in
                 self.tracking()
+            }
+        }
+    }
+
+    // withObservationTrackingのキャンセルの説明用に実装しています
+    // このViewControllerからはどこからも呼んでいません
+    func render() {
+        withObservationTracking { [weak self] in
+            guard let self else { return }
+            // 監視したプロパティにアクセス
+            print(self.bookAccount.isBorrowed)
+        } onChange: { [weak self] in
+            guard let self else { return }
+            Task { @MainActor in
+                // フラグでキャンセルを制御
+                if self.flg {
+                    self.render()
+                }
             }
         }
     }

@@ -1,5 +1,5 @@
 //
-//  PropertyWrappersObservableView.swift
+//  PropertyWrappers.swift
 //  Chapter2
 //
 //  Created by satoutakeshi on 2023/11/06.

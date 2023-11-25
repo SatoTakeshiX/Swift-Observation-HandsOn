@@ -1,5 +1,5 @@
 //
-//  SubClassObservableView.swift
+//  SubClassObjectView.swift
 //  Chapter3
 //
 //  Created by satoutakeshi on 2023/11/10.
@@ -7,9 +7,8 @@
 
 import SwiftUI
 
-@Observable
-fileprivate class Book {
-    var borrowedName: String?
+fileprivate class Book: ObservableObject {
+    @Published var borrowedName: String?
 
     init(borrowedName: String?) {
         self.borrowedName = borrowedName
@@ -24,7 +23,6 @@ fileprivate class Book {
     }
 }
 
-@Observable
 fileprivate final class Novel: Book {
     let genre: String
 
@@ -34,8 +32,8 @@ fileprivate final class Novel: Book {
     }
 }
 
-struct SubClassObservableView: View {
-    @State private var novel: Novel = .init(genre: "SF小説")
+struct SubclassObjectView: View {
+    @StateObject private var novel: Novel = .init(genre: "SF小説")
     var body: some View {
         Text("ジャンル：\(novel.genre)")
         Text("借りている人：\(novel.borrowedName ?? "なし")")
@@ -49,5 +47,5 @@ struct SubClassObservableView: View {
 }
 
 #Preview {
-    SubClassObservableView()
+    SubclassObjectView()
 }
