@@ -1,6 +1,6 @@
 //
 //  WillSetDidSetObservable.swift
-//  Chapter2
+//  Chapter3
 //
 //  Created by satoutakeshi on 2023/11/05.
 //

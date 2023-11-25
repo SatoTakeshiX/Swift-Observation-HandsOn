@@ -57,6 +57,9 @@ struct ThirdEnvironmentView: View {
     @Environment(\.lesson) private var lessonByEnvironmentKey
     @Environment(Lesson.self) private var lessonByType
 
+    // オプショナルとして定義も可能
+    // @Environment(Lesson.self) private var lessonByType: Lesson?
+
     var body: some View {
         Text("by key: \(lessonByEnvironmentKey.name)")
         Text("by Type: \(lessonByType.name)")

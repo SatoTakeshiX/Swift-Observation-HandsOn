@@ -66,10 +66,10 @@ final class BookAccountViewController: UIViewController {
         } onChange: { [weak self] in
             guard let self else { return }
             Task { @MainActor in
-                // フラグでキャンセルを制御
-                if self.flg {
-                    self.render()
-                }
+                // キャンセルはフラグで制御
+                // if self.flg {
+                self.render()
+                // }
             }
         }
     }
