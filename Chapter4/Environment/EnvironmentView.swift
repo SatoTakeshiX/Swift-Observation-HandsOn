@@ -17,15 +17,15 @@ struct EnvironmentListView: View {
     var body: some View {
         List {
             NavigationLink(
-                destination: SecondEnvironmentView()
-            ) {
-                Text("EnvironmentListView")
-            }
-
-            NavigationLink(
                 destination: SecondStateView(lesson: lessonState)
             ) {
                 Text("SecondStateView")
+            }
+
+            NavigationLink(
+                destination: SecondEnvironmentView()
+            ) {
+                Text("EnvironmentListView")
             }
         }
     }
