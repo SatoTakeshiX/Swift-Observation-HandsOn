@@ -26,7 +26,7 @@ final class Lesson: Identifiable {
         self.duration = duration
     }
 
-    func addPerticipant() {
+    func addParticipant() {
         let newName = [
             "Jobs",
             "Cook",
@@ -77,7 +77,7 @@ final class SingletonLesson {
         self.duration = duration
     }
 
-    func addPerticipant() {
+    func addParticipant() {
         let newName = [
             "Jobs",
             "Cook",

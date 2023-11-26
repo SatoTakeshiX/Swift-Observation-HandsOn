@@ -35,7 +35,7 @@ struct LocalPropertyView: View {
         Spacer()
             .frame(height: 12)
         Button(action: {
-            lesson.addPerticipant()
+            lesson.addParticipant()
         }, label: {
             Text("参加者を増やす")
         })

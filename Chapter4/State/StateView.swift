@@ -34,7 +34,7 @@ struct StateView: View {
         Text("参加者人数: \(lesson.sumNumber)")
 
         Button(action: {
-            lesson.addPerticipant()
+            lesson.addParticipant()
         }, label: {
             Text("参加者を増やす")
         })
