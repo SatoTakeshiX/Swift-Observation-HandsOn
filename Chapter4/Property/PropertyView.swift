@@ -75,3 +75,7 @@ struct LocalPropertyChild: View {
 #Preview {
     PropertyListView()
 }
+
+#Preview {
+    LocalPropertyParent()
+}
