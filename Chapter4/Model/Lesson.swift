@@ -13,7 +13,7 @@ final class Lesson: Identifiable {
     private(set) var participants: [Participant]
     var duration: Int
 
-    var sumNumber: Int {
+    var numberOfParticipants: Int {
         participants.count
     }
 
@@ -54,7 +54,7 @@ final class SingletonLesson {
     private(set) var participants: [Participant]
     private(set) var duration: Int
 
-    var sumNumber: Int {
+    var numberOfParticipants: Int {
         participants.count
     }
 
