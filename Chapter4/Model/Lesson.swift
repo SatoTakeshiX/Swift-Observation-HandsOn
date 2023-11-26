@@ -10,19 +10,19 @@ import Foundation
 @Observable
 final class Lesson: Identifiable {
     var name: String
-    private(set) var perticipants: [Participant]
+    private(set) var participants: [Participant]
     var duration: Int
 
     var sumNumber: Int {
-        perticipants.count
+        participants.count
     }
 
     init(name: String, 
-         perticipants: [Participant],
+         participants: [Participant],
          duration: Int
     ) {
         self.name = name
-        self.perticipants = perticipants
+        self.participants = participants
         self.duration = duration
     }
 
@@ -38,7 +38,7 @@ final class Lesson: Identifiable {
             return
         }
 
-        perticipants.append(
+        participants.append(
             Participant(name: name)
         )
     }
@@ -51,17 +51,17 @@ struct Participant {
 @Observable
 final class SingletonLesson {
     let name: String
-    private(set) var perticipants: [Participant]
+    private(set) var participants: [Participant]
     private(set) var duration: Int
 
     var sumNumber: Int {
-        perticipants.count
+        participants.count
     }
 
     static let shared: SingletonLesson = {
         let lesson = SingletonLesson(
             name: "ピアノ",
-            perticipants: [],
+            participants: [],
             duration: 60
         )
         return lesson
@@ -69,11 +69,11 @@ final class SingletonLesson {
 
     private init(
         name: String,
-        perticipants: [Participant],
+        participants: [Participant],
         duration: Int
     ) {
         self.name = name
-        self.perticipants = perticipants
+        self.participants = participants
         self.duration = duration
     }
 
@@ -89,7 +89,7 @@ final class SingletonLesson {
             return
         }
 
-        perticipants.append(
+        participants.append(
             Participant(name: name)
         )
     }

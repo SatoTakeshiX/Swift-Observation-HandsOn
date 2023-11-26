@@ -23,7 +23,7 @@ struct PropertyListView: View {
 struct LocalPropertyView: View {
     var lesson: Lesson = .init(
         name: "ピアノ",
-        perticipants: [],
+        participants: [],
         duration: 60
     )
 
@@ -52,7 +52,7 @@ struct LocalPropertyView: View {
 struct LocalPropertyParent: View {
     @State var lesson = Lesson(
         name: "英語",
-        perticipants: [],
+        participants: [],
         duration: 60
     )
     var body: some View {

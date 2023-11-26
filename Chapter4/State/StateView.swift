@@ -23,7 +23,7 @@ struct StateParentView: View {
 struct StateView: View {
     @State private var lesson: Lesson = .init(
         name: "ピアノ",
-        perticipants: [],
+        participants: [],
         duration: 60
     )
 

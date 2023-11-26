@@ -11,12 +11,12 @@ struct BindableView: View {
     @State private var lessons = [
         Lesson(
             name: "初めての料理教室",
-            perticipants: [],
+            participants: [],
             duration: 120
         ),
         Lesson(
             name: "初めてのワイン",
-            perticipants: [],
+            participants: [],
             duration: 45
         )
     ]
@@ -24,7 +24,7 @@ struct BindableView: View {
     @Environment(Lesson.self) private var environmentLesson
     @State private var specialLesson = Lesson(
         name: "特別レッスン",
-        perticipants: [],
+        participants: [],
         duration: 0
     )
 
@@ -72,7 +72,7 @@ struct BindableChildView: View {
         .environment(
             Lesson(
                 name: "デーブルマナーを学ぶ",
-                perticipants: [],
+                participants: [],
                 duration: 60
             )
         )

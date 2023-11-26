@@ -17,7 +17,7 @@ extension EnvironmentValues {
 private struct LessonKey: EnvironmentKey {
     static var defaultValue: Lesson = Lesson(
         name: "初めてのギター",
-        perticipants: [],
+        participants: [],
         duration: 60
     )
 }

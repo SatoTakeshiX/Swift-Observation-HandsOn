@@ -10,7 +10,7 @@ import SwiftUI
 struct EnvironmentListView: View {
     @State private var lessonState: Lesson = .init(
         name: "英語初級",
-        perticipants: [], 
+        participants: [], 
         duration: 90
     )
 
@@ -68,7 +68,7 @@ struct ThirdEnvironmentView: View {
 }
 
 #Preview {
-    let lesson = Lesson(name: "ピアノ初級", perticipants: [], duration: 60)
+    let lesson = Lesson(name: "ピアノ初級", participants: [], duration: 60)
     return NavigationView(
         content: {
             NavigationLink(
@@ -80,5 +80,5 @@ struct ThirdEnvironmentView: View {
         }
     )
     .environment(\.lesson, lesson)
-    .environment(Lesson(name: "初めての中国語", perticipants: [], duration: 60))
+    .environment(Lesson(name: "初めての中国語", participants: [], duration: 60))
 }
