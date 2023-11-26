@@ -234,7 +234,7 @@
 				30BA934A2B09B1DC00731AB3 /* AvaliableTypes */,
 				30BA93502B09B1EC00731AB3 /* WillSetDidSet */,
 				30BA935C2B09B1EC00731AB3 /* PropertyWrappers */,
-				30BA93682B09B1EC00731AB3 /* SubClass */,
+				30BA93682B09B1EC00731AB3 /* Subclass */,
 				30BA93652B09B1EC00731AB3 /* ChildView */,
 				30BA93592B09B1EC00731AB3 /* NestingView */,
 				30BA93532B09B1EC00731AB3 /* Preview Content */,
@@ -350,13 +350,13 @@
 			path = ChildView;
 			sourceTree = "<group>";
 		};
-		30BA93682B09B1EC00731AB3 /* SubClass */ = {
+		30BA93682B09B1EC00731AB3 /* Subclass */ = {
 			isa = PBXGroup;
 			children = (
 				30BA93692B09B1EC00731AB3 /* SubclassObjectView.swift */,
 				30BA936A2B09B1EC00731AB3 /* SubclassObservableView.swift */,
 			);
-			path = SubClass;
+			path = Subclass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
