@@ -17,6 +17,10 @@ struct KVOView: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: KVOViewController, context: Context) {}
 }
 
+#Preview {
+    KVOView()
+}
+
 final class KVOViewController: UIViewController {
     @objc let bookModel = BookObjectObserve(isBorrowed: false)
     var observation: NSKeyValueObservation?
