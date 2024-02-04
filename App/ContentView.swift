@@ -124,6 +124,18 @@ struct ContentView: View {
                     ) {
                         Text("BindableView")
                     }
+
+                    NavigationLink(
+                        destination: BindableLocalVariableView()
+                    ) {
+                        Text("BindableLocalVariableView")
+                    }
+
+                    NavigationLink(
+                        destination: OtherBindingView()
+                    ) {
+                        Text("OtherBindingView")
+                    }
                 }
             }
             .navigationTitle("Observation入門")
