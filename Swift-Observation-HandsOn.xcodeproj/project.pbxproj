@@ -40,6 +40,8 @@
 		30BA93792B09B1EC00731AB3 /* ChildObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93662B09B1EC00731AB3 /* ChildObjectView.swift */; };
 		30BA937A2B09B1EC00731AB3 /* ChildObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */; };
 		30BA937B2B09B1EC00731AB3 /* SubclassObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA93692B09B1EC00731AB3 /* SubclassObjectView.swift */; };
+		30C287272B6F9EAE00673974 /* BindableLocalVariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C287262B6F9EAE00673974 /* BindableLocalVariableView.swift */; };
+		30C287292B6FBED400673974 /* OtherBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C287282B6FBED400673974 /* OtherBindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		30BA93672B09B1EC00731AB3 /* ChildObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildObservableView.swift; sourceTree = "<group>"; };
 		30BA93692B09B1EC00731AB3 /* SubclassObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObjectView.swift; sourceTree = "<group>"; };
 		30BA936A2B09B1EC00731AB3 /* SubclassObservableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObservableView.swift; sourceTree = "<group>"; };
+		30C287262B6F9EAE00673974 /* BindableLocalVariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableLocalVariableView.swift; sourceTree = "<group>"; };
+		30C287282B6FBED400673974 /* OtherBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherBindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				30259BDB2B0A655500751D51 /* BindableView.swift */,
+				30C287262B6F9EAE00673974 /* BindableLocalVariableView.swift */,
+				30C287282B6FBED400673974 /* OtherBindingView.swift */,
 			);
 			path = Bindable;
 			sourceTree = "<group>";
@@ -167,7 +173,6 @@
 				30BA93312B09AC1B00731AB3 /* Chapter2 */,
 				30BA93322B09AC2200731AB3 /* Chapter3 */,
 				30BA93332B09AC2800731AB3 /* Chapter4 */,
-				30BA93142B09A9D600731AB3 /* UnitTests */,
 				30BA93022B09A9D500731AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				30BA933B2B09AEC500731AB3 /* ObservableObject */,
 				30BA93382B09AEC500731AB3 /* Observation */,
 				30BA93342B09AEC500731AB3 /* ObservationMechanism */,
+				30BA93142B09A9D600731AB3 /* UnitTests */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -310,8 +316,8 @@
 		30BA93502B09B1EC00731AB3 /* WillSetDidSet */ = {
 			isa = PBXGroup;
 			children = (
-				30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */,
 				30BA93512B09B1EC00731AB3 /* WillSetDidSetObservable.swift */,
+				30BA93522B09B1EC00731AB3 /* WillSetDidSetObservableObjectView.swift */,
 			);
 			path = WillSetDidSet;
 			sourceTree = "<group>";
@@ -467,6 +473,8 @@
 				30BA93442B09AEC500731AB3 /* ObservationView.swift in Sources */,
 				30259BC92B09D2F300751D51 /* NestedObjectView.swift in Sources */,
 				30259BCD2B0A156D00751D51 /* Lesson.swift in Sources */,
+				30C287272B6F9EAE00673974 /* BindableLocalVariableView.swift in Sources */,
+				30C287292B6FBED400673974 /* OtherBindingView.swift in Sources */,
 				30BA936B2B09B1EC00731AB3 /* ComputedObjectView.swift in Sources */,
 				30BA93482B09AEC500731AB3 /* KVOViewController.swift in Sources */,
 				30BA93472B09AEC500731AB3 /* BookModel.swift in Sources */,
