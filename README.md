@@ -12,7 +12,7 @@
 
 # 目次
 
-## Observationフレームワーク概要
+## 第一章：Observationフレームワーク概要
 
 `Observation`フレームワークが登場した背景や仕組みを解説します。
 `Swift`マクロがコードをどのように変換しているかを深掘りします。
@@ -20,7 +20,7 @@
 [サンプルコード](https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/tree/main/Chapter1)
 
 
-## 計算プロパティを初期化する新しい方法
+## 第二章：計算プロパティを初期化する新しい方法
 
 `Observable`マクロの登場で、格納プロパティが初期化メソッド内で初期化できなくなりました。
 `SE-0400`のプロポーザルはそれを解消します。
@@ -28,7 +28,7 @@
 
 [サンプルコード](https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/tree/main/Chapter2)
 
-## ObservableObjectとの比較
+## 第三章：ObservableObjectとの比較
 
 `Observation`フレームワークの特徴や従来の`ObservableObject`プロトコルと何が異なるのかを探ります。
 `Observation`フレームワークのメリットがよく分かる章です。
@@ -37,7 +37,7 @@
 [サンプルコード](https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/tree/main/Chapter3)
 
 
-## SwiftUIとのデータバインディング
+## 第四章：SwiftUIとのデータバインディング
 
 `SwiftUI`との連携を中心に解説します。
 `@State`や`@Environment`、`@Bindable`といったデータを扱う`Property Wrapper`の利用方法を解説します。
