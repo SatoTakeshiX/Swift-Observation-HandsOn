@@ -59,3 +59,9 @@
 書籍本文自体の疑問があれば下記メールアドレスにまでご連絡ください。
 
 * t.sato@personal-factory.com
+
+# 修正履歴
+原稿の修正履歴をこちらのページのリリースページで公開します。
+詳しくはこちらのページをご覧ください。
+
+https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/releases
