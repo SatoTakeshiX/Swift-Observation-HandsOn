@@ -45,7 +45,7 @@ final class Chapter1Tests: XCTestCase {
         withObservationTracking {
             print(book.isBorrowed)
         } onChange: {
-            // no one call this
+            // no one calls this
             exp.fulfill()
         }
 
