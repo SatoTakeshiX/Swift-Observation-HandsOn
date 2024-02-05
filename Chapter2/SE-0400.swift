@@ -58,25 +58,3 @@ final class Person {
         self.name = name
     }
 }
-
-struct Person2 {
-    let age: Int
-    let _name: String
-    var name: String {
-        @storageRestrictions(initializes: _name, accesses: age)
-        init(initializes) {
-            self._name = initializes
-            print("age: \(age)")
-        }
-
-        get {
-            _name
-        }
-    }
-
-    init(name: String, age: Int) {
-        //self.name = name
-        self.age = age
-        self.name = name
-    }
-}
