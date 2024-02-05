@@ -27,3 +27,5 @@ class ClassA {}
 // Non-class type 'EnumObject' cannot conform to class protocol 'ObservableObject'
 
 class ClassAObject: ObservableObject {}
+
+actor ActorObject: ObservableObject {}
