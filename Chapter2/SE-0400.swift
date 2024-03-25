@@ -58,3 +58,28 @@ final class Person {
         self.name = name
     }
 }
+
+final class Animal {
+    var _age: Int
+    var age: Int = 0 { // initial value
+        @storageRestrictions(initializes: _age)
+        init(initializes) {
+            self._age = initializes
+            print("called first")
+        }
+
+        get {
+            _age
+        }
+
+        set {
+            _age = newValue
+            print("called second")
+        }
+    }
+
+    init(age: Int) {
+        // implicitly initializes self.age = 0
+        self.age = _age // calls setter
+    }
+}
