@@ -6,9 +6,14 @@
 
 # Book URL
 
+## 商業誌
+* [インプレス NextPublishing](https://nextpublishing.jp/book/17670.html)
+
 ## 同人誌
 * [Booth](https://personal-factory.booth.pm/items/5425394)
 * [技術書典](https://techbookfest.org/product/vFjd8cyB0ic0v2a7EECm7u?productVariantID=ksMDDE6xtziytRnpYahstU)
+
+
 
 # 目次
 
