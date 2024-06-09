@@ -70,3 +70,7 @@
 詳しくはこちらのページをご覧ください。
 
 https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/releases
+
+# 正誤表
+誤字脱字についてはこちらをご覧ください。
+https://github.com/SatoTakeshiX/Swift-Observation-HandsOn/blob/main/ErrataList.md
